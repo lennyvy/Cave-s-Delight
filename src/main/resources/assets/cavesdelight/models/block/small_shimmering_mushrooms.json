@@ -1,0 +1,10 @@
+{
+  "parent": "cavesdelight:custom/small_shimmering_mushrooms_ground",
+  "textures": {
+    "all": "cavesdelight:block/small_shimmering_mushrooms",
+    "particle": "cavesdelight:block/small_shimmering_mushrooms",
+    "0": "cavesdelight:block/small_shimmering_mushrooms",
+    "missing": "cavesdelight:block/"
+  },
+  "render_type": "cutout"
+}

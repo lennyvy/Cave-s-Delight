@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a",
+    "a "
+  ],
+  "key": {
+    "a": {
+      "item": "cavesdelight:amethyst_powder"
+    }
+  },
+  "result": {
+    "id": "minecraft:amethyst_shard",
+    "count": 1
+  }
+}

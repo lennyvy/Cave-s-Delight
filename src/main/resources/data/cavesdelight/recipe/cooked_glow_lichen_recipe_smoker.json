@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 40,
+  "ingredient": {
+    "item": "cavesdelight:raw_glow_lichen"
+  },
+  "result": {
+    "id": "cavesdelight:cooked_glow_lichen"
+  }
+}

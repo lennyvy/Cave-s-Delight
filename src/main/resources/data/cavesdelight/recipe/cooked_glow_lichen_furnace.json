@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 3,
+  "cookingtime": 80,
+  "ingredient": {
+    "item": "cavesdelight:raw_glow_lichen"
+  },
+  "result": {
+    "id": "cavesdelight:cooked_glow_lichen"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "cavesdelight:raw_axolotl_ham"
+    }
+  ],
+  "result": [
+		{
+		"item": {
+			"count": 2,
+			"id": "cavesdelight:raw_axolotl_slice"
+			}
+		}
+	],
+	"tool": [
+    {
+      "type": "farmersdelight:item_ability",
+      "action": "knife_dig"
+    },
+    {
+      "tag": "c:tools/knife"
+    }
+  ]
+}

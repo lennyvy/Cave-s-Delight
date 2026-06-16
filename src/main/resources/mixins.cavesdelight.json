@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "de.lennyvy.cavesdelight.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "CookingPotMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

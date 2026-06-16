@@ -1,0 +1,15 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 110,
+  "experience": 0.3,
+  "ingredients": [
+    {
+      "item": "cavesdelight:raw_axolotl_ham"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "id": "cavesdelight:cooked_axolotl_ham",
+    "count": 1
+  }
+}

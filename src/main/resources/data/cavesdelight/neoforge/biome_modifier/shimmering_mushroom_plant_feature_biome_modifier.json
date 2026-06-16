@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "deep_dark",
+  "features": "cavesdelight:shimmering_mushroom_plant_feature",
+  "step": "vegetal_decoration"
+}

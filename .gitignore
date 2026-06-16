@@ -1,0 +1,24 @@
+# Build- und Laufzeitverzeichnisse
+/build/
+/run/
+/logs/
+/crash-reports/
+
+# MCreator-eigene Dateien (nicht zum Bauen nötig)
+/.mcreator/
+/mcreator.gradle
+/settings.gradle   # optional, kann man drin lassen wenn vorhanden
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.project
+.classpath
+.settings/
+
+# Betriebssystem-Dateien
+.DS_Store
+Thumbs.db
