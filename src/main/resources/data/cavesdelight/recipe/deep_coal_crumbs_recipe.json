@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "cavesdelight:deep_coal"
+    }
+  ],
+  "result": [
+		{
+		"item": {
+			"count": 1,
+			"id": "cavesdelight:deep_coal_crumbs"
+			}
+		}
+	],
+	"tool": [
+    {
+      "item": "farmersdelight:netherite_knife"
+    }
+  ]
+}

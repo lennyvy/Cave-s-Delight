@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "cavesdelight:item/glow_lichen_with_deep_coal_crumbs"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "cavesdelight:custom/raw_stuffed_axolotl",
+  "textures": {
+    "3": "cavesdelight:block/raw_stuffed_axolotl_1",
+    "missing": "cavesdelight:block/raw_stuffed_axolotl_1",
+    "particle": "cavesdelight:item/raw_stuffed_axolotl_1"
+  },
+  "render_type": "cutout_mipped"
+}

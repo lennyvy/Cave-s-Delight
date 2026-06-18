@@ -1,0 +1,17 @@
+{
+  "_fv": 85,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      {
+        "value": "CUSTOM:ShimmeringMushroom"
+      },
+      {
+        "value": "CUSTOM:SmallShimmeringMushrooms"
+      }
+    ],
+    "information": [
+      "These Mushrooms only grow in the darkes caves out there. They belong to one of the few light sources down there"
+    ]
+  }
+}

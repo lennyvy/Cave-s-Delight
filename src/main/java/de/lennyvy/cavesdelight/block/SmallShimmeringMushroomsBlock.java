@@ -23,7 +23,7 @@ import de.lennyvy.cavesdelight.procedures.SmallShimmeringMushroomsOnBoneMealSucc
 
 public class SmallShimmeringMushroomsBlock extends FlowerBlock implements BonemealableBlock {
 	public SmallShimmeringMushroomsBlock() {
-		super(MobEffects.MOVEMENT_SPEED, 100, BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().lightLevel(s -> 6).noCollission().pushReaction(PushReaction.DESTROY));
+		super(MobEffects.MOVEMENT_SPEED, 100, BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().lightLevel(s -> 8).noCollission().pushReaction(PushReaction.DESTROY));
 	}
 
 	@Override

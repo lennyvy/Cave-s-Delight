@@ -1,10 +1,22 @@
 {
   "type": "farmersdelight:cooking",
-  "cookingtime": 110,
-  "experience": 0.3,
+  "container": {
+    "id": "minecraft:bowl"
+  },
+  "cookingtime": 230,
+  "experience": 2,
   "ingredients": [
     {
       "item": "cavesdelight:raw_axolotl_ham"
+    },
+    {
+      "item": "cavesdelight:shimmering_mushroom_slice"
+    },
+    {
+      "item": "minecraft:glow_berries"
+    },
+    {
+      "item": "minecraft:potato"
     }
   ],
   "recipe_book_tab": "meals",

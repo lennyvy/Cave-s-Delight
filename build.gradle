@@ -5,10 +5,13 @@ plugins {
 
 repositories {
     maven { url = "https://cursemaven.com" }
+    maven { url = "https://maven.blamejared.com" }
 }
 
 dependencies {
     implementation "curse.maven:farmers-delight-398521:7801529"
+    compileOnly "mezz.jei:jei-1.21.1-neoforge-api:19.5.0.1"
+    runtimeOnly "mezz.jei:jei-1.21.1-neoforge:19.5.0.1"
 }
 
 version = '1.0'

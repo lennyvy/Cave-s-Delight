@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "lush_caves",
+  "features": "cavesdelight:hyacinth_flower_plant_feature",
+  "step": "vegetal_decoration"
+}

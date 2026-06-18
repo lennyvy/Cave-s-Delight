@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "cavesdelight:hyacinth_flower"
+    }
+  ],
+  "result": [
+		{
+		"item": {
+			"count": 2,
+			"id": "cavesdelight:hyacinth_flower_petals"
+			}
+		}
+	],
+	"tool": [
+    {
+      "type": "farmersdelight:item_ability",
+      "action": "knife_dig"
+    },
+    {
+      "tag": "c:tools/knife"
+    }
+  ]
+}

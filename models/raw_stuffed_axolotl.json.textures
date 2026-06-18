@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "3": "raw_stuffed_axolotl_0",
+        "missing": ""
+      }
+    }
+  }
+}

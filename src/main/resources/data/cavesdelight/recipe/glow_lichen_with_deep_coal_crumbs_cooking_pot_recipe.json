@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "id": "minecraft:bowl"
+  },
+  "cookingtime": 150,
+  "experience": 1.3,
+  "ingredients": [
+    {
+      "item": "cavesdelight:raw_glow_lichen"
+    },
+    {
+      "item": "cavesdelight:deep_coal_crumbs"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "id": "cavesdelight:glow_lichen_with_deep_coal",
+    "count": 1
+  }
+}

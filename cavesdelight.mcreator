@@ -1,0 +1,1120 @@
+{
+  "mod_elements": [
+    {
+      "name": "CavesDelight",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caves_delight",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/misc"
+    },
+    {
+      "name": "ChessFlower",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chess_flower",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/loot_table/blocks/chess_flower.json",
+          "src/main/java/de/lennyvy/cavesdelight/block/ChessFlowerBlock.java",
+          "src/main/resources/assets/cavesdelight/models/block/chess_flower.json",
+          "src/main/resources/assets/cavesdelight/blockstates/chess_flower.json",
+          "src/main/resources/assets/cavesdelight/models/item/chess_flower.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "ChessFlowerSoup",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chess_flower_soup",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cavesdelight/models/item/chess_flower_soup.json",
+          "src/main/java/de/lennyvy/cavesdelight/item/ChessFlowerSoupItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "RawGlowLichen",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "raw_glow_lichen",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cavesdelight/models/item/raw_glow_lichen.json",
+          "src/main/java/de/lennyvy/cavesdelight/item/RawGlowLichenItem.java"
+        ]
+      },
+      "path": "~/items/effectfood"
+    },
+    {
+      "name": "CookedGlowLichen",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cooked_glow_lichen",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/item/CookedGlowLichenItem.java",
+          "src/main/resources/assets/cavesdelight/models/item/cooked_glow_lichen.json"
+        ]
+      },
+      "path": "~/items/effectfood"
+    },
+    {
+      "name": "CookedGlowLichenFurnace",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_glow_lichen_furnace",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/cooked_glow_lichen_furnace.json",
+          "src/main/resources/data/cavesdelight/advancement/recipes/cooked_glow_lichen_furnace.json"
+        ]
+      },
+      "path": "~/recipes/furnace"
+    },
+    {
+      "name": "RawAxolotlHam",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "raw_axolotl_ham",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/item/RawAxolotlHamItem.java",
+          "src/main/resources/assets/cavesdelight/models/item/raw_axolotl_ham.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "CookedAxolotlHam",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cooked_axolotl_ham",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/item/CookedAxolotlHamItem.java",
+          "src/main/resources/assets/cavesdelight/models/item/cooked_axolotl_ham.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "AxolotlDropModifier",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "axolotl_drop_modifier",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/procedures/AxolotlDropModifierProcedure.java"
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "CookedAxolotlHamRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_axolotl_ham_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/cooked_axolotl_ham_recipe.json",
+          "src/main/resources/data/cavesdelight/advancement/recipes/cooked_axolotl_ham_recipe.json"
+        ]
+      },
+      "path": "~/recipes/furnace"
+    },
+    {
+      "name": "CookedGlowLichenRecipeSmoker",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_glow_lichen_recipe_smoker",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/cooked_glow_lichen_recipe_smoker.json",
+          "src/main/resources/data/cavesdelight/advancement/recipes/cooked_glow_lichen_recipe_smoker.json"
+        ]
+      },
+      "path": "~/recipes/furnace"
+    },
+    {
+      "name": "CookedAxolotlHamRecipeSmoker",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_axolotl_ham_recipe_smoker",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/advancement/recipes/cooked_axolotl_ham_recipe_smoker.json",
+          "src/main/resources/data/cavesdelight/recipe/cooked_axolotl_ham_recipe_smoker.json"
+        ]
+      },
+      "path": "~/recipes/furnace"
+    },
+    {
+      "name": "AxolotlHamInfo",
+      "type": "jeiinformation",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "axolotl_ham_info",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/JEI"
+    },
+    {
+      "name": "ChessFlowerInfo",
+      "type": "jeiinformation",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chess_flower_info",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/JEI"
+    },
+    {
+      "name": "GlowLichenDropModifier",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glow_lichen_drop_modifier",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/procedures/GlowLichenDropModifierProcedure.java"
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "GlowLichenInfo",
+      "type": "jeiinformation",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glow_lichen_info",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/JEI"
+    },
+    {
+      "name": "ChessFlowerSoupCookingPotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "chess_flower_soup_cooking_pot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/caves_delight/recipe/chess_flower_soup_cooking_pot_recipe.json",
+          "src/main/resources/data/caves_delight/advancement/recipes/chess_flower_soup_cooking_pot_recipe.json"
+        ]
+      },
+      "path": "~/recipes/cooking_pot"
+    },
+    {
+      "name": "Salt",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "salt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cavesdelight/models/item/salt.json",
+          "src/main/java/de/lennyvy/cavesdelight/item/SaltItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "SaltRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "salt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/salt_recipe.json",
+          "src/main/resources/data/cavesdelight/advancement/recipes/salt_recipe.json"
+        ]
+      },
+      "path": "~/recipes/craftingtable"
+    },
+    {
+      "name": "AmethystPowder",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_powder",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/item/AmethystPowderItem.java",
+          "src/main/resources/assets/cavesdelight/models/item/amethyst_powder.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "AmethystPowderShardRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "amethyst_powder_shard_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/amethyst_powder_shard_recipe.json",
+          "src/main/resources/data/cavesdelight/advancement/recipes/amethyst_powder_shard_recipe.json"
+        ]
+      },
+      "path": "~/recipes/cutting"
+    },
+    {
+      "name": "AmethystPowderReverseRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_powder_reverse_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/amethyst_powder_reverse_recipe.json",
+          "src/main/resources/data/cavesdelight/advancement/recipes/amethyst_powder_reverse_recipe.json"
+        ]
+      },
+      "path": "~/recipes/craftingtable"
+    },
+    {
+      "name": "AmethystPowderBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_powder_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/amethyst_powder_block_recipe.json",
+          "src/main/resources/data/cavesdelight/advancement/recipes/amethyst_powder_block_recipe.json"
+        ]
+      },
+      "path": "~/recipes/craftingtable"
+    },
+    {
+      "name": "ChessFlowerPlantFeature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chess_flower_plant_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/worldgen/placed_feature/chess_flower_plant_feature.json",
+          "src/main/resources/data/cavesdelight/worldgen/configured_feature/chess_flower_plant_feature.json",
+          "src/main/resources/data/cavesdelight/neoforge/biome_modifier/chess_flower_plant_feature_biome_modifier.json"
+        ]
+      },
+      "path": "~/misc"
+    },
+    {
+      "name": "ChessFlowerPetals",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chess_flower_petals",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/item/ChessFlowerPetalsItem.java",
+          "src/main/resources/assets/cavesdelight/models/item/chess_flower_petals.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "ChessFlowerPetalsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "chess_flower_petals_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/chess_flower_petals_recipe.json"
+        ]
+      },
+      "path": "~/recipes/cutting"
+    },
+    {
+      "name": "RawAxolotlSlice",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_axolotl_slice",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/item/RawAxolotlSliceItem.java",
+          "src/main/resources/assets/cavesdelight/models/item/raw_axolotl_slice.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "CookedAxolotlSlice",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_axolotl_slice",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/item/CookedAxolotlSliceItem.java",
+          "src/main/resources/assets/cavesdelight/models/item/cooked_axolotl_slice.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "AxolotlHamToSlicesRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "axolotl_ham_to_slices_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/advancement/recipes/axolotl_ham_to_slices_recipe.json",
+          "src/main/resources/data/cavesdelight/recipe/axolotl_ham_to_slices_recipe.json"
+        ]
+      },
+      "path": "~/recipes/cutting"
+    },
+    {
+      "name": "AxolotlHamCookingPotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "axolotl_ham_cooking_pot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/advancement/recipes/axolotl_ham_cooking_pot_recipe.json",
+          "src/main/resources/data/cavesdelight/recipe/axolotl_ham_cooking_pot_recipe.json"
+        ]
+      },
+      "path": "~/recipes/cooking_pot"
+    },
+    {
+      "name": "CookingPotColorTransfer",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cooking_pot_color_transfer",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/CookingPotColorTransfer.java"
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "CookingPotMixin",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cooking_pot_mixin",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/CookingPotMixin.java"
+        ]
+      },
+      "path": "~/mixin"
+    },
+    {
+      "name": "CookingPotCaches",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cooking_pot_caches",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/CookingPotCaches.java"
+        ]
+      },
+      "path": "~/mixin"
+    },
+    {
+      "name": "ShimmeringMushroom",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shimmering_mushroom",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cavesdelight/models/block/shimmering_mushroom.json",
+          "src/main/resources/assets/cavesdelight/blockstates/shimmering_mushroom.json",
+          "src/main/resources/assets/cavesdelight/models/item/shimmering_mushroom.json",
+          "src/main/java/de/lennyvy/cavesdelight/block/ShimmeringMushroomBlock.java",
+          "src/main/resources/data/cavesdelight/loot_table/blocks/shimmering_mushroom.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "ChessFlowerOnBoneMealSuccess",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chess_flower_on_bone_meal_success",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/procedures/ChessFlowerOnBoneMealSuccessProcedure.java"
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "ShimmeringMushroomPlantFeature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shimmering_mushroom_plant_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/worldgen/configured_feature/shimmering_mushroom_plant_feature.json",
+          "src/main/resources/data/cavesdelight/worldgen/placed_feature/shimmering_mushroom_plant_feature.json",
+          "src/main/resources/data/cavesdelight/neoforge/biome_modifier/shimmering_mushroom_plant_feature_biome_modifier.json"
+        ]
+      },
+      "path": "~/misc"
+    },
+    {
+      "name": "ShimmeringSlicesRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "shimmering_slices_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/advancement/recipes/shimmering_slices_recipe.json",
+          "src/main/resources/data/cavesdelight/recipe/shimmering_slices_recipe.json"
+        ]
+      },
+      "path": "~/recipes/cutting"
+    },
+    {
+      "name": "ShimmeringMushroomOnBoneMealSuccess",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shimmering_mushroom_on_bone_meal_success",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/procedures/ShimmeringMushroomOnBoneMealSuccessProcedure.java"
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "SmallShimmeringMushroomsOnBoneMealSuccess",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_shimmering_mushrooms_on_bone_meal_success",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/procedures/SmallShimmeringMushroomsOnBoneMealSuccessProcedure.java"
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "SmallShimmeringMushrooms",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_shimmering_mushrooms",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cavesdelight/blockstates/small_shimmering_mushrooms.json",
+          "src/main/resources/assets/cavesdelight/models/item/small_shimmering_mushrooms.json",
+          "src/main/resources/data/cavesdelight/loot_table/blocks/small_shimmering_mushrooms.json",
+          "src/main/resources/assets/cavesdelight/models/block/small_shimmering_mushrooms.json",
+          "src/main/java/de/lennyvy/cavesdelight/block/SmallShimmeringMushroomsBlock.java"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "DeepCoal",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_coal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cavesdelight/models/item/deep_coal.json",
+          "src/main/java/de/lennyvy/cavesdelight/item/DeepCoalItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "DeepCoalFuel",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_coal_fuel",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "DeepCoalOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_coal_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cavesdelight/models/item/deep_coal_ore.json",
+          "src/main/resources/data/cavesdelight/neoforge/biome_modifier/deep_coal_ore_biome_modifier.json",
+          "src/main/resources/assets/cavesdelight/models/block/deep_coal_ore.json",
+          "src/main/resources/data/cavesdelight/worldgen/placed_feature/deep_coal_ore.json",
+          "src/main/resources/data/cavesdelight/worldgen/configured_feature/deep_coal_ore.json",
+          "src/main/java/de/lennyvy/cavesdelight/block/DeepCoalOreBlock.java",
+          "src/main/resources/assets/cavesdelight/blockstates/deep_coal_ore.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "DeepCoalOreLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_coal_ore_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/loot_table/blocks/deep_coal_ore.json"
+        ]
+      },
+      "path": "~/loot_tables"
+    },
+    {
+      "name": "DeepCoalCrumbs",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "deep_coal_crumbs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cavesdelight/models/item/deep_coal_crumbs.json",
+          "src/main/java/de/lennyvy/cavesdelight/item/DeepCoalCrumbsItem.java"
+        ]
+      },
+      "path": "~/items/effectfood"
+    },
+    {
+      "name": "DeepCoalInfo",
+      "type": "jeiinformation",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_coal_info",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/JEI"
+    },
+    {
+      "name": "ShimmeringMushroomInfo",
+      "type": "jeiinformation",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shimmering_mushroom_info",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/JEI"
+    },
+    {
+      "name": "DeepCoalCrumbsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "deep_coal_crumbs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/advancement/recipes/deep_coal_crumbs_recipe.json",
+          "src/main/resources/data/cavesdelight/recipe/deep_coal_crumbs_recipe.json"
+        ]
+      },
+      "path": "~/recipes/cutting"
+    },
+    {
+      "name": "GlowLichenWithDeepCoal",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "glow_lichen_with_deep_coal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cavesdelight/models/item/glow_lichen_with_deep_coal.json",
+          "src/main/java/de/lennyvy/cavesdelight/item/GlowLichenWithDeepCoalItem.java"
+        ]
+      },
+      "path": "~/items/effectfood"
+    },
+    {
+      "name": "GlowLichenWithDeepCoalCrumbsCookingPotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "glow_lichen_with_deep_coal_crumbs_cooking_pot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/glow_lichen_with_deep_coal_crumbs_cooking_pot_recipe.json",
+          "src/main/resources/data/cavesdelight/advancement/recipes/glow_lichen_with_deep_coal_crumbs_cooking_pot_recipe.json"
+        ]
+      },
+      "path": "~/recipes/cooking_pot"
+    },
+    {
+      "name": "ShimmeringMushroomSlice",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "shimmering_mushroom_slice",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/item/ShimmeringMushroomSliceItem.java",
+          "src/main/resources/assets/cavesdelight/models/item/shimmering_mushroom_slice.json"
+        ]
+      },
+      "path": "~/items/effectfood"
+    },
+    {
+      "name": "SmallShimmeringMushroomSlice",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "small_shimmering_mushroom_slice",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/item/SmallShimmeringMushroomSliceItem.java",
+          "src/main/resources/assets/cavesdelight/models/item/small_shimmering_mushroom_slice.json"
+        ]
+      },
+      "path": "~/items/effectfood"
+    },
+    {
+      "name": "ChessFlowerDyeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chess_flower_dye_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/chess_flower_dye_recipe.json",
+          "src/main/resources/data/cavesdelight/advancement/recipes/chess_flower_dye_recipe.json"
+        ]
+      },
+      "path": "~/recipes/craftingtable"
+    },
+    {
+      "name": "HyacinthFlowerOnBoneMealSuccess",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hyacinth_flower_on_bone_meal_success",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/procedures/HyacinthFlowerOnBoneMealSuccessProcedure.java"
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "HyacinthFlower",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hyacinth_flower",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cavesdelight/blockstates/hyacinth_flower.json",
+          "src/main/resources/assets/cavesdelight/models/item/hyacinth_flower.json",
+          "src/main/resources/assets/cavesdelight/models/block/hyacinth_flower.json",
+          "src/main/java/de/lennyvy/cavesdelight/block/HyacinthFlowerBlock.java",
+          "src/main/resources/data/cavesdelight/loot_table/blocks/hyacinth_flower.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "HyacinthFlowerPlantFeature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hyacinth_flower_plant_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/neoforge/biome_modifier/hyacinth_flower_plant_feature_biome_modifier.json",
+          "src/main/resources/data/cavesdelight/worldgen/placed_feature/hyacinth_flower_plant_feature.json",
+          "src/main/resources/data/cavesdelight/worldgen/configured_feature/hyacinth_flower_plant_feature.json"
+        ]
+      },
+      "path": "~/misc"
+    },
+    {
+      "name": "HyacinthFlowerDyeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hyacinth_flower_dye_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/hyacinth_flower_dye_recipe.json"
+        ]
+      },
+      "path": "~/recipes/craftingtable"
+    },
+    {
+      "name": "HyacinthFlowerPetals",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hyacinth_flower_petals",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cavesdelight/models/item/hyacinth_flower_petals.json",
+          "src/main/java/de/lennyvy/cavesdelight/item/HyacinthFlowerPetalsItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "HyacinthFlowerPetalsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hyacinth_flower_petals_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/hyacinth_flower_petals_recipe.json"
+        ]
+      },
+      "path": "~/recipes/cutting"
+    },
+    {
+      "name": "RawStuffedAxolotlCookingPotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "raw_stuffed_axolotl_cooking_pot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/raw_stuffed_axolotl_cooking_pot_recipe.json",
+          "src/main/resources/data/cavesdelight/advancement/recipes/raw_stuffed_axolotl_cooking_pot_recipe.json"
+        ]
+      },
+      "path": "~/recipes/cooking_pot"
+    },
+    {
+      "name": "RawStuffedAxolotlBlock",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "raw_stuffed_axolotl_block",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/RawStuffedAxolotlBlock.java"
+        ]
+      },
+      "path": "~/misc"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:meat": [
+      "~CUSTOM:CookedAxolotlSlice",
+      "~CUSTOM:RawAxolotlSlice"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:DeepCoalOre"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:DeepCoalOre"
+    ]
+  },
+  "tab_element_order": {
+    "CUSTOM:CavesDelight": [
+      "ChessFlower",
+      "ChessFlowerPetals",
+      "HyacinthFlower",
+      "HyacinthFlowerPetals",
+      "RawGlowLichen",
+      "CookedGlowLichen",
+      "RawAxolotlHam",
+      "RawAxolotlSlice",
+      "CookedAxolotlSlice",
+      "Salt",
+      "AmethystPowder",
+      "ShimmeringMushroom",
+      "SmallShimmeringMushrooms",
+      "ShimmeringMushroomSlice",
+      "SmallShimmeringMushroomSlice",
+      "DeepCoalOre",
+      "DeepCoal",
+      "DeepCoalCrumbs",
+      "ChessFlowerSoup",
+      "CookedAxolotlHam",
+      "GlowLichenWithDeepCoal"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "item_group.cavesdelight.caves_delight": "Cave\u0027s Delight",
+      "block.cavesdelight.chess_flower": "Chess Flower",
+      "item.cavesdelight.chess_flower_soup": "Chess Flower Soup",
+      "item.cavesdelight.raw_glow_lichen": "Raw Glow Lichen",
+      "item.cavesdelight.cooked_glow_lichen": "Cooked Glow Lichen",
+      "item.cavesdelight.raw_axolotl_ham": "Raw Axolotl Ham",
+      "item.cavesdelight.cooked_axolotl_ham": "Cooked Axolotl Ham",
+      "jei.cavesdelight.axolotl_ham_info": "If you want to gather this resoure you might need something lighter then a sword...",
+      "jei.cavesdelight.chess_flower_info": "These flowers typically are found in lush and flourishing caves. If you need more flowers, using a fertilizer might be usefull",
+      "jei.cavesdelight.glow_lichen_info": "Try to cut down glow lichen naturally found in some caves with a knife.",
+      "item.cavesdelight.salt": "Salt",
+      "item.cavesdelight.amethyst_powder": "Amethyst Powder",
+      "item.cavesdelight.chess_flower_petals": "Chess Flower Petals",
+      "item.cavesdelight.raw_axolotl_slice": "Raw Axolotl Slice",
+      "item.cavesdelight.cooked_axolotl_slice": "Cooked Axolotl Slice",
+      "block.cavesdelight.shimmering_mushroom": "Shimmering Mushroom",
+      "block.cavesdelight.small_shimmering_mushrooms": "Small Shimmering Mushrooms",
+      "item.cavesdelight.deep_coal": "Deep Coal",
+      "block.cavesdelight.deep_coal_ore": "Deep Coal Ore",
+      "item.cavesdelight.deep_coal_crumbs": "Deep Coal Crumbs",
+      "jei.cavesdelight.deep_coal_info": "Deep Coal can be found in the deepest and darkest places. But be careful, there is something listening...",
+      "jei.cavesdelight.shimmering_mushroom_info": "These Mushrooms only grow in the darkes caves out there. They belong to one of the few light sources down there",
+      "item.cavesdelight.glow_lichen_with_deep_coal": "Glow Lichen With Deep Coal",
+      "item.cavesdelight.shimmering_mushroom_slice": "Shimmering Mushroom Slice",
+      "item.cavesdelight.small_shimmering_mushroom_slice": "Small Shimmering Mushroom Slice",
+      "block.cavesdelight.hyacinth_flower": "Hyacinth Flower",
+      "item.cavesdelight.hyacinth_flower_petals": "Hyacinth Flower Petals",
+      "block.cavesdelight.raw_stuffed_axolotl": "Raw Stuffed Axolotl"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/de/lennyvy/cavesdelight/init/CavesdelightModFuels.java",
+      "src/main/java/de/lennyvy/cavesdelight/init/CavesdelightModJeiInformation.java",
+      "src/main/java/de/lennyvy/cavesdelight/init/CavesdelightModBrewingRecipes.java",
+      "src/main/java/de/lennyvy/cavesdelight/init/CavesdelightModBlocks.java",
+      "src/main/java/de/lennyvy/cavesdelight/init/CavesdelightModItems.java",
+      "src/main/java/de/lennyvy/cavesdelight/CavesdelightMod.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/de/lennyvy/cavesdelight/init/CavesdelightModTabs.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "items",
+        "children": [
+          {
+            "name": "effectfood",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "crops",
+        "children": []
+      },
+      {
+        "name": "recipes",
+        "children": [
+          {
+            "name": "craftingtable",
+            "children": []
+          },
+          {
+            "name": "furnace",
+            "children": []
+          },
+          {
+            "name": "cooking_pot",
+            "children": []
+          },
+          {
+            "name": "cutting",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "blocks",
+        "children": []
+      },
+      {
+        "name": "misc",
+        "children": []
+      },
+      {
+        "name": "JEI",
+        "children": []
+      },
+      {
+        "name": "loot_tables",
+        "children": []
+      },
+      {
+        "name": "procedures",
+        "children": []
+      },
+      {
+        "name": "mixin",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "cavesdelight",
+    "modName": " Cave\u0027s Delight",
+    "version": "1.0.0",
+    "description": "FarmersDelight Addon for Cave Focused Content",
+    "author": "lennyvy",
+    "websiteURL": "https://discord.gg/RUwGNhn4qS",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "requiredMods": [
+      "farmersdelight"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "jei"
+    ],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "I made this mod as an addon for Farmers Delight, to bring more culinary worth to the undergrounds",
+    "modElementsPackage": "de.lennyvy.cavesdelight"
+  },
+  "mcreatorVersion": 202600114619
+}
