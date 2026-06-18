@@ -1,18 +1,19 @@
 # Cave's Delight 🍄
 
-**Cave's Delight** is an expansion mod for **NeoForge 1.21.1** that enhances cave life with culinary adventures – inspired by *Farmer's Delight*. The mod adds new edible plants, mushrooms, and animal products, along with special cave-themed recipes for the cooking pot.
+**Cave's Delight** is an expansion mod for **Farmer's Delight** that enhances cave life with culinary adventures. The mod adds new edible plants, mushrooms, and animal products, along with special cave-themed recipes for the cooking pot.
 
 ---
 
 ## 🌟 Features
 
 ### 🌱 New Plants & Blocks
-- **Chess Flower** – A rare cave flower whose petals can be processed into a nourishing soup.
+- **Chess Flower & Hyacinth Flower** – Rare cave flowers whose petals can be processed into nourishing meals.
 - **Shimmering Mushroom** – A luminous mushroom that grows in dark caves and serves as an ingredient for special dishes.
 - **Small Shimmering Mushrooms** – A smaller variant of the Shimmering Mushroom that spawns in clusters.
 
 ### 🍲 New Food Items & Materials
 - **Amethyst Powder** – A fine powder made from amethyst shards, used as an ingredient in brewing and cooking recipes.
+- **Salt** – A fine powder made from amethyst shards, used as an ingredient in brewing and cooking recipes.
 - **Chess Flower Petals** – The petals of the Chess Flower, essential for making Chess Flower Soup.
 - **Chess Flower Soup** – A hearty soup prepared in the cooking pot.
 - **Axolotl Products**:
@@ -26,6 +27,7 @@ The mod expands the cooking pot system with new recipes, including:
 - Preparing Axolotl Ham in the cooking pot.
 - Cooking Chess Flower Soup.
 - Additional processing recipes using Amethyst Powder and other cave ingredients.
+- (For Devs) -> Custom_Model_Data now gets transferred through the recipe like I used it with the colored Axolotl Items!!!
 
 ### 🧪 Brewing & Processing
 - Special brewing recipes using Amethyst Powder and other cave ingredients.
@@ -59,9 +61,9 @@ The mod expands the cooking pot system with new recipes, including:
 
 ## 📝 Future Plans
 
-- More cave plants and ressources
 - Additional cooking pot recipes with unique effects
-- Building blocks centered around die salt item. 
+- Building blocks centered around die salt item.
+- 3D Stuffed Axolotl Block
 
 ---
 
