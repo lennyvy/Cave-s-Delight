@@ -19,7 +19,7 @@ import java.util.List;
 
 public class SmallShimmeringMushroomSliceItem extends Item {
 	public SmallShimmeringMushroomSliceItem() {
-		super(new Item.Properties().food((new FoodProperties.Builder()).nutrition(2).saturationModifier(1.5f)
+		super(new Item.Properties().food((new FoodProperties.Builder()).nutrition(2).saturationModifier(0.5f)
 			.effect(() -> new MobEffectInstance(MobEffects.DARKNESS, 100, 0), 1.0f).alwaysEdible().build()));
 	}
 

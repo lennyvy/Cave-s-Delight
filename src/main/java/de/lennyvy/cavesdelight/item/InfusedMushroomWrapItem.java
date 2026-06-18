@@ -1,6 +1,5 @@
 package de.lennyvy.cavesdelight.item;
 
-
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -18,10 +17,10 @@ import vectorwing.farmersdelight.common.utility.TextUtils;
 import java.util.List;
 
 
-public class ShimmeringMushroomSliceItem extends Item {
-	public ShimmeringMushroomSliceItem() {
-		super(new Item.Properties().food((new FoodProperties.Builder()).nutrition(4).saturationModifier(0.5f)
-			.effect(() -> new MobEffectInstance(MobEffects.DARKNESS, 200, 0), 1.0f).alwaysEdible().build()));
+public class InfusedMushroomWrapItem extends Item {
+	public InfusedMushroomWrapItem() {
+		super(new Item.Properties().food((new FoodProperties.Builder()).nutrition(10).saturationModifier(0.9f)
+			.effect(() -> new MobEffectInstance(MobEffects.NIGHT_VISION, 1500, 0), 1.0f).build()));
 	}
 
 	 @Override

@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cavesdelight:axolotl_ham_to_slices_recipe"
+        "recipe": "cavesdelight:deep_coal_crumbs_recipe"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
@@ -11,7 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": "cavesdelight:raw_axolotl_ham"
+            "items": "cavesdelight:deep_coal"
           }
         ]
       },
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "cavesdelight:axolotl_ham_to_slices_recipe"
+      "cavesdelight:deep_coal_crumbs_recipe"
     ]
   }
 }

@@ -19,8 +19,8 @@ import java.util.List;
 
 public class DeepCoalCrumbsItem extends Item {
 	public DeepCoalCrumbsItem() {
-		super(new Item.Properties().fireResistant().food((new FoodProperties.Builder()).nutrition(2).saturationModifier(3.5f)
-			.effect(() -> new MobEffectInstance(MobEffects.NIGHT_VISION, 1200, 0), 1.0f).alwaysEdible().build()));
+		super(new Item.Properties().fireResistant().food((new FoodProperties.Builder()).nutrition(2).saturationModifier(2f)
+			.effect(() -> new MobEffectInstance(MobEffects.NIGHT_VISION, 600, 0), 1.0f).alwaysEdible().build()));
 	}
 
 	 @Override

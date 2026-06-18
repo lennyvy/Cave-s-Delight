@@ -28,6 +28,7 @@ public class CavesdelightModTabs {
 				tabData.accept(CavesdelightModItems.COOKED_AXOLOTL_SLICE.get());
 				tabData.accept(CavesdelightModItems.SALT.get());
 				tabData.accept(CavesdelightModItems.AMETHYST_POWDER.get());
+				tabData.accept(CavesdelightModItems.AXOLOTL_SPICES.get());
 				tabData.accept(CavesdelightModBlocks.SHIMMERING_MUSHROOM.get().asItem());
 				tabData.accept(CavesdelightModBlocks.SMALL_SHIMMERING_MUSHROOMS.get().asItem());
 				tabData.accept(CavesdelightModItems.SHIMMERING_MUSHROOM_SLICE.get());
@@ -35,8 +36,10 @@ public class CavesdelightModTabs {
 				tabData.accept(CavesdelightModBlocks.DEEP_COAL_ORE.get().asItem());
 				tabData.accept(CavesdelightModItems.DEEP_COAL.get());
 				tabData.accept(CavesdelightModItems.DEEP_COAL_CRUMBS.get());
-				tabData.accept(CavesdelightModItems.CHESS_FLOWER_SOUP.get());
-				tabData.accept(CavesdelightModItems.COOKED_AXOLOTL_HAM.get());
+				tabData.accept(CavesdelightModItems.DEEP_COAL_CEREALS.get());
 				tabData.accept(CavesdelightModItems.GLOW_LICHEN_WITH_DEEP_COAL.get());
+				tabData.accept(CavesdelightModItems.INFUSED_MUSHROOM_WRAP.get());
+				tabData.accept(CavesdelightModItems.COOKED_AXOLOTL_HAM.get());
+				tabData.accept(CavesdelightModItems.CHESS_FLOWER_SOUP.get());
 			}).build());
 }

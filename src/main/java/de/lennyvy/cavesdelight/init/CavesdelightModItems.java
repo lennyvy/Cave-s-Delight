@@ -37,6 +37,9 @@ public class CavesdelightModItems {
 	public static final DeferredItem<Item> SMALL_SHIMMERING_MUSHROOM_SLICE;
 	public static final DeferredItem<Item> HYACINTH_FLOWER;
 	public static final DeferredItem<Item> HYACINTH_FLOWER_PETALS;
+	public static final DeferredItem<Item> AXOLOTL_SPICES;
+	public static final DeferredItem<Item> INFUSED_MUSHROOM_WRAP;
+	public static final DeferredItem<Item> DEEP_COAL_CEREALS;
 	static {
 		CHESS_FLOWER = block(CavesdelightModBlocks.CHESS_FLOWER);
 		CHESS_FLOWER_SOUP = REGISTRY.register("chess_flower_soup", ChessFlowerSoupItem::new);
@@ -59,6 +62,9 @@ public class CavesdelightModItems {
 		SMALL_SHIMMERING_MUSHROOM_SLICE = REGISTRY.register("small_shimmering_mushroom_slice", SmallShimmeringMushroomSliceItem::new);
 		HYACINTH_FLOWER = block(CavesdelightModBlocks.HYACINTH_FLOWER);
 		HYACINTH_FLOWER_PETALS = REGISTRY.register("hyacinth_flower_petals", HyacinthFlowerPetalsItem::new);
+		AXOLOTL_SPICES = REGISTRY.register("axolotl_spices", AxolotlSpicesItem::new);
+		INFUSED_MUSHROOM_WRAP = REGISTRY.register("infused_mushroom_wrap", InfusedMushroomWrapItem::new);
+		DEEP_COAL_CEREALS = REGISTRY.register("deep_coal_cereals", DeepCoalCerealsItem::new);
 	}
 	// Start of user code block custom items
 	public static final DeferredItem<Item> RAW_STUFFED_AXOLOTL = REGISTRY.register("raw_stuffed_axolotl", () -> new RawStuffedAxolotlItem(CavesdelightModBlocks.RAW_STUFFED_AXOLOTL.get(), new Item.Properties()));

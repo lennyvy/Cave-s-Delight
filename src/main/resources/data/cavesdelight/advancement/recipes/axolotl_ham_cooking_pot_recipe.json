@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "caves_delight:chess_flower_soup_cooking_pot_recipe"
+        "recipe": "caves_delight:axolotl_ham_cooking_pot_recipe"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
@@ -11,7 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": "caves_delight:chess_flower"
+            "items": "caves_delight:raw_axolotl_ham"
           }
         ]
       },
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "caves_delight:chess_flower_soup_cooking_pot_recipe"
+      "caves_delight:axolotl_ham_cooking_pot_recipe"
     ]
   }
 }

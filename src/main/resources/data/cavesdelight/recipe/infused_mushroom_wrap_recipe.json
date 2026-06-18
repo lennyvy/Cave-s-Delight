@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 230,
+  "experience": 2,
+  "ingredients": [
+    {
+      "item": "cavesdelight:shimmering_mushroom_slice"
+    },
+    {
+      "item": "cavesdelight:small_shimmering_mushroom_slice"
+    },
+    {
+      "item": "cavesdelight:amethyst_powder"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "id": "cavesdelight:infused_mushroom_wrap",
+    "count": 1
+  }
+}

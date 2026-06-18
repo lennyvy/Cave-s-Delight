@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cavesdelight:salt"
+    },
+    {
+      "item": "cavesdelight:amethyst_powder"
+    },
+    {
+      "item": "cavesdelight:chess_flower_petals"
+    }
+  ],
+  "result": {
+    "id": "cavesdelight:axolotl_spices",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "id": "minecraft:bowl"
+  },
+  "cookingtime": 230,
+  "experience": 2,
+  "ingredients": [
+    {
+      "item": "cavesdelight:deep_coal_crumbs"
+    },
+    {
+      "item": "minecraft:milk_bucket"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "id": "cavesdelight:deep_coal_cereals",
+    "count": 1
+  }
+}

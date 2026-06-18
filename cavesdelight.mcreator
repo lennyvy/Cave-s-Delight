@@ -945,14 +945,97 @@
         ]
       },
       "path": "~/misc"
+    },
+    {
+      "name": "InfusedMushroomWrapRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "infused_mushroom_wrap_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/advancement/recipes/infused_mushroom_wrap_recipe.json",
+          "src/main/resources/data/cavesdelight/recipe/infused_mushroom_wrap_recipe.json"
+        ]
+      },
+      "path": "~/recipes/cooking_pot"
+    },
+    {
+      "name": "DeepCoalCerealsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "deep_coal_cereals_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/advancement/recipes/deep_coal_cereals_recipe.json",
+          "src/main/resources/data/cavesdelight/recipe/deep_coal_cereals_recipe.json"
+        ]
+      },
+      "path": "~/recipes/cooking_pot"
+    },
+    {
+      "name": "CaveSpicesRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cave_spices_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/advancement/recipes/cave_spices_recipe.json",
+          "src/main/resources/data/cavesdelight/recipe/cave_spices_recipe.json"
+        ]
+      },
+      "path": "~/recipes/craftingtable"
+    },
+    {
+      "name": "AxolotlSpices",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "axolotl_spices",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/item/AxolotlSpicesItem.java",
+          "src/main/resources/assets/cavesdelight/models/item/axolotl_spices.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "InfusedMushroomWrap",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "infused_mushroom_wrap",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/item/InfusedMushroomWrapItem.java",
+          "src/main/resources/assets/cavesdelight/models/item/infused_mushroom_wrap.json"
+        ]
+      },
+      "path": "~/items/effectfood"
+    },
+    {
+      "name": "DeepCoalCereals",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_coal_cereals",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cavesdelight/models/item/deep_coal_cereals.json",
+          "src/main/java/de/lennyvy/cavesdelight/item/DeepCoalCerealsItem.java"
+        ]
+      },
+      "path": "~/items"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "ITEMS:minecraft:meat": [
-      "~CUSTOM:CookedAxolotlSlice",
-      "~CUSTOM:RawAxolotlSlice"
+      "~CUSTOM:CookedAxolotlSlice"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:DeepCoalOre"
@@ -974,6 +1057,7 @@
       "CookedAxolotlSlice",
       "Salt",
       "AmethystPowder",
+      "AxolotlSpices",
       "ShimmeringMushroom",
       "SmallShimmeringMushrooms",
       "ShimmeringMushroomSlice",
@@ -981,9 +1065,11 @@
       "DeepCoalOre",
       "DeepCoal",
       "DeepCoalCrumbs",
-      "ChessFlowerSoup",
+      "DeepCoalCereals",
+      "GlowLichenWithDeepCoal",
+      "InfusedMushroomWrap",
       "CookedAxolotlHam",
-      "GlowLichenWithDeepCoal"
+      "ChessFlowerSoup"
     ]
   },
   "language_map": {
@@ -1015,7 +1101,10 @@
       "item.cavesdelight.small_shimmering_mushroom_slice": "Small Shimmering Mushroom Slice",
       "block.cavesdelight.hyacinth_flower": "Hyacinth Flower",
       "item.cavesdelight.hyacinth_flower_petals": "Hyacinth Flower Petals",
-      "block.cavesdelight.raw_stuffed_axolotl": "Raw Stuffed Axolotl"
+      "block.cavesdelight.raw_stuffed_axolotl": "Raw Stuffed Axolotl",
+      "item.cavesdelight.axolotl_spices": "Axolotl Spices",
+      "item.cavesdelight.infused_mushroom_wrap": "Infused Mushroom Wrap",
+      "item.cavesdelight.deep_coal_cereals": "Deep Coal Cereals"
     }
   },
   "metadata": {

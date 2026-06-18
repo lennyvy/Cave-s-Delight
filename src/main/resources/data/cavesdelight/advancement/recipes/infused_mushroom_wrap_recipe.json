@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "caves_delight:glow_lichen_with_deep_coal_crumbs_cooking_pot_recipe"
+        "recipe": "caves_delight:infused_mushroom_wrap_recipe"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
@@ -11,7 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": "caves_delight:deep_coal"
+            "items": "caves_delight:small_shimmering_mushrooms"
           }
         ]
       },
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "caves_delight:glow_lichen_with_deep_coal_crumbs_cooking_pot_recipe"
+      "caves_delight:infused_mushroom_wrap_recipe"
     ]
   }
 }

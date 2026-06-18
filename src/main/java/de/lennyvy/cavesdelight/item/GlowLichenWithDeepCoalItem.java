@@ -21,7 +21,7 @@ public class GlowLichenWithDeepCoalItem extends Item {
     public GlowLichenWithDeepCoalItem() {
         super(new Properties().stacksTo(16).food(new FoodProperties.Builder()
             .nutrition(12)
-            .saturationModifier(1.5f)
+            .saturationModifier(1f)
             .effect(() -> new MobEffectInstance(MobEffects.GLOWING, 1800, 0), 1.0f)
             .effect(() -> new MobEffectInstance(MobEffects.NIGHT_VISION, 3600, 0), 1.0f)
             .build()));
@@ -32,4 +32,20 @@ public class GlowLichenWithDeepCoalItem extends Item {
                                  List<Component> tooltip, TooltipFlag flag) {
         TextUtils.addFoodEffectTooltip(stack, tooltip::add, 1.0F, context.tickRate());
     }
+
+    @Override
+	public ItemStack finishUsingItem(ItemStack itemstack, Level world, LivingEntity entity) {
+		ItemStack retval = new ItemStack(Items.BOWL);
+		super.finishUsingItem(itemstack, world, entity);
+		if (itemstack.isEmpty()) {
+			return retval;
+		} else {
+			if (entity instanceof Player player && !player.getAbilities().instabuild) {
+				if (!player.getInventory().add(retval))
+					player.drop(retval, false);
+			}
+			return itemstack;
+		}
+	}
+
 }

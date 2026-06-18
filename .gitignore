@@ -8,6 +8,8 @@
 /.mcreator/
 /mcreator.gradle
 /settings.gradle   # optional, kann man drin lassen wenn vorhanden
+/cavesdelight.mcreator
+/.mcreator/
 
 # IDE
 .idea/
