@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cavesdelight:burger_buns"
+    },
+    {
+      "item": "cavesdelight:amethyst_powder"
+    },
+    {
+      "item": "cavesdelight:small_shimmering_mushroom_slice"
+    },
+    {
+      "item": "farmersdelight:onion"
+    },
+    {
+      "tag": "c:crops/cabbage"
+    }
+  ],
+  "result": {
+    "id": "cavesdelight:infused_mushroom_burger",
+    "count": 1
+  }
+}

@@ -12,6 +12,8 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
 
+import de.lennyvy.cavesdelight.init.CavesdelightModMobEffects;
+
 import vectorwing.farmersdelight.common.utility.TextUtils;
 
 import java.util.List;
@@ -20,10 +22,11 @@ import java.util.List;
 public class InfusedMushroomWrapItem extends Item {
 	public InfusedMushroomWrapItem() {
 		super(new Item.Properties().food((new FoodProperties.Builder()).nutrition(10).saturationModifier(0.9f)
-			.effect(() -> new MobEffectInstance(MobEffects.NIGHT_VISION, 1500, 0), 1.0f).build()));
+			.effect(() -> new MobEffectInstance(MobEffects.NIGHT_VISION, 1800, 0), 1.0f)
+			.effect(() -> new MobEffectInstance(CavesdelightModMobEffects.ECHO_SIGHT, 900, 3), 1.0f).build()));
 	}
 
-	 @Override
+	@Override
     public void appendHoverText(ItemStack stack, TooltipContext context,
                                  List<Component> tooltip, TooltipFlag flag) {
         TextUtils.addFoodEffectTooltip(stack, tooltip::add, 1.0F, context.tickRate());

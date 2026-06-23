@@ -31,5 +31,15 @@ public class CavesdelightModBlocks {
 	// Start of user code block custom blocks
 	public static final DeferredBlock<Block> RAW_STUFFED_AXOLOTL = REGISTRY.register("raw_stuffed_axolotl",
 			() -> new RawStuffedAxolotlBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_PINK).strength(0.5f).sound(SoundType.WOOL).noOcclusion()));
+	public static final DeferredBlock<Block> COOKED_STUFFED_AXOLOTL = REGISTRY.register("cooked_stuffed_axolotl",
+			() -> new CookedStuffedAxolotlBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_PINK).strength(0.5f).sound(SoundType.WOOL).noOcclusion()));
+	public static final DeferredBlock<Block> COOKED_STUFFED_AXOLOTL_STAGE0 = REGISTRY.register("cooked_stuffed_axolotl_stage0",
+			() -> new CookedStuffedAxolotlStage0Block(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_PINK).strength(0.5f).sound(SoundType.WOOL).noOcclusion()));
+	public static final DeferredBlock<Block> COOKED_STUFFED_AXOLOTL_STAGE1 = REGISTRY.register("cooked_stuffed_axolotl_stage1",
+			() -> new CookedStuffedAxolotlStage1Block(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_PINK).strength(0.5f).sound(SoundType.WOOL).noOcclusion()));
+	public static final DeferredBlock<Block> COOKED_STUFFED_AXOLOTL_STAGE2 = REGISTRY.register("cooked_stuffed_axolotl_stage2",
+			() -> new CookedStuffedAxolotlStage2Block(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_PINK).strength(0.5f).sound(SoundType.WOOL).noOcclusion()));
+	public static final DeferredBlock<Block> COOKED_STUFFED_AXOLOTL_STAGE3 = REGISTRY.register("cooked_stuffed_axolotl_stage3",
+			() -> new CookedStuffedAxolotlStage3Block(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_PINK).strength(0.5f).sound(SoundType.WOOL).noOcclusion()));
 	// End of user code block custom blocks
 }

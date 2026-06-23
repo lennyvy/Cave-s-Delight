@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "id": "minecraft:bowl"
+  },
+  "cookingtime": 110,
+  "experience": 0.3,
+  "ingredients": [
+    {
+      "item": "cavesdelight:hyacinth_flower_petals"
+    },
+    {
+      "item": "cavesdelight:amethyst_powder"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "id": "cavesdelight:hyacinth_flower_soup",
+    "count": 1
+  }
+}

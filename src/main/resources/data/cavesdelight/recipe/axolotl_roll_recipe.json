@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cavesdelight:raw_axolotl_slice"
+    },
+    {
+      "item": "cavesdelight:raw_axolotl_slice"
+    },
+    {
+      "item": "farmersdelight:cooked_rice"
+    }
+  ],
+  "result": {
+    "id": "cavesdelight:axolotl_roll",
+    "count": 2
+  }
+}

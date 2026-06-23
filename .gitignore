@@ -1,17 +1,14 @@
-# Build- und Laufzeitverzeichnisse
+
 /build/
 /run/
 /logs/
 /crash-reports/
 
-# MCreator-eigene Dateien (nicht zum Bauen nötig)
 /.mcreator/
 /mcreator.gradle
 /settings.gradle   # optional, kann man drin lassen wenn vorhanden
 /cavesdelight.mcreator
-/.mcreator/
 
-# IDE
 .idea/
 *.iml
 *.ipr
@@ -20,7 +17,7 @@
 .project
 .classpath
 .settings/
+.eclipse/
 
-# Betriebssystem-Dateien
 .DS_Store
 Thumbs.db

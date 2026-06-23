@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "cavesdelight:burger_bun"
+    }
+  ],
+  "result": [
+		{
+		"item": {
+			"count": 1,
+			"id": "cavesdelight:burger_buns"
+			}
+		}
+	],
+	"tool": [
+    {
+      "type": "farmersdelight:item_ability",
+      "action": "knife_dig"
+    },
+    {
+      "tag": "c:tools/knife"
+    }
+  ]
+}

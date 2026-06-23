@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cavesdelight:burger_buns"
+    },
+    {
+      "item": "cavesdelight:cooked_axolotl_slice"
+    },
+    {
+      "item": "cavesdelight:cooked_axolotl_slice"
+    },
+    {
+      "item": "cavesdelight:glow_berry_sauce"
+    },
+    {
+      "item": "farmersdelight:tomato"
+    },
+    {
+      "item": "farmersdelight:onion"
+    },
+    {
+      "tag": "c:crops/cabbage"
+    }
+  ],
+  "result": {
+    "id": "cavesdelight:double_axolotl_burger",
+    "count": 1
+  }
+}

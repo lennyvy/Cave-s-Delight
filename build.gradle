@@ -4,12 +4,12 @@ plugins {
 }
 
 repositories {
-    maven { url = "https://cursemaven.com" }
     maven { url = "https://maven.blamejared.com" }
+    maven { url = "https://api.modrinth.com/maven" }
 }
 
 dependencies {
-    implementation "curse.maven:farmers-delight-398521:7801529"
+    implementation "maven.modrinth:farmers-delight:1.21.1-1.2.4a"
     compileOnly "mezz.jei:jei-1.21.1-neoforge-api:19.5.0.1"
     runtimeOnly "mezz.jei:jei-1.21.1-neoforge:19.5.0.1"
 }

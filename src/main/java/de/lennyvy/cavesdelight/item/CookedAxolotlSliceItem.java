@@ -5,6 +5,6 @@ import net.minecraft.world.food.FoodProperties;
 
 public class CookedAxolotlSliceItem extends Item {
 	public CookedAxolotlSliceItem() {
-		super(new Item.Properties().food((new FoodProperties.Builder()).nutrition(6).saturationModifier(0.7f).build()));
+		super(new Item.Properties().food((new FoodProperties.Builder()).nutrition(4).saturationModifier(0.75f).build()));
 	}
 }

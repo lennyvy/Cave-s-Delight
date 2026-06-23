@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "cavesdelight:item/stuffed_axolotl_0"
+  },
+  "overrides": [
+    {
+      "predicate": { "custom_model_data": 1 },
+      "model": "cavesdelight:item/stuffed_axolotl_1"
+    },
+    {
+      "predicate": { "custom_model_data": 2 },
+      "model": "cavesdelight:item/stuffed_axolotl_2"
+    },
+    {
+      "predicate": { "custom_model_data": 3 },
+      "model": "cavesdelight:item/stuffed_axolotl_3"
+    },
+    {
+      "predicate": { "custom_model_data": 4 },
+      "model": "cavesdelight:item/stuffed_axolotl_4"
+    }
+  ]
+}

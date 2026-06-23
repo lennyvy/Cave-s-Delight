@@ -1,0 +1,49 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BurgerBuns"
+      },
+      {
+        "value": "CUSTOM:CookedAxolotlSlice"
+      },
+      {
+        "value": "CUSTOM:CookedAxolotlSlice"
+      },
+      {
+        "value": "CUSTOM:GlowBerrySauce"
+      },
+      {
+        "value": "TAG:c:crops/lettuce"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DoubleAxolotlBurger"
+    },
+    "name": "double_axolotl_burger_recipe",
+    "namespace": "mod"
+  }
+}

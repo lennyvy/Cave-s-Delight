@@ -1,17 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "CavesDelight",
-      "type": "tab",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "caves_delight",
-      "metadata": {
-        "files": []
-      },
-      "path": "~/misc"
-    },
-    {
       "name": "ChessFlower",
       "type": "plant",
       "compiles": true,
@@ -32,7 +21,7 @@
       "name": "ChessFlowerSoup",
       "type": "item",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "chess_flower_soup",
       "metadata": {
         "files": [
@@ -40,7 +29,7 @@
           "src/main/java/de/lennyvy/cavesdelight/item/ChessFlowerSoupItem.java"
         ]
       },
-      "path": "~/items"
+      "path": "~/items/effectfood"
     },
     {
       "name": "RawGlowLichen",
@@ -958,7 +947,7 @@
           "src/main/resources/data/cavesdelight/recipe/infused_mushroom_wrap_recipe.json"
         ]
       },
-      "path": "~/recipes/cooking_pot"
+      "path": "~/recipes/craftingtable"
     },
     {
       "name": "DeepCoalCerealsRecipe",
@@ -973,34 +962,6 @@
         ]
       },
       "path": "~/recipes/cooking_pot"
-    },
-    {
-      "name": "CaveSpicesRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cave_spices_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/cavesdelight/advancement/recipes/cave_spices_recipe.json",
-          "src/main/resources/data/cavesdelight/recipe/cave_spices_recipe.json"
-        ]
-      },
-      "path": "~/recipes/craftingtable"
-    },
-    {
-      "name": "AxolotlSpices",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "axolotl_spices",
-      "metadata": {
-        "files": [
-          "src/main/java/de/lennyvy/cavesdelight/item/AxolotlSpicesItem.java",
-          "src/main/resources/assets/cavesdelight/models/item/axolotl_spices.json"
-        ]
-      },
-      "path": "~/items"
     },
     {
       "name": "InfusedMushroomWrap",
@@ -1028,7 +989,1065 @@
           "src/main/java/de/lennyvy/cavesdelight/item/DeepCoalCerealsItem.java"
         ]
       },
+      "path": "~/items/effectfood"
+    },
+    {
+      "name": "SmallShimmeringSlicesRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "small_shimmering_slices_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/advancement/recipes/small_shimmering_slices_recipe.json",
+          "src/main/resources/data/cavesdelight/recipe/small_shimmering_slices_recipe.json"
+        ]
+      },
+      "path": "~/recipes/cutting"
+    },
+    {
+      "name": "SmallShimmeringMushroomSlicesRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "small_shimmering_mushroom_slices_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/advancement/recipes/small_shimmering_mushroom_slices_recipe.json",
+          "src/main/resources/data/cavesdelight/recipe/small_shimmering_mushroom_slices_recipe.json"
+        ]
+      },
+      "path": "~/recipes/cutting"
+    },
+    {
+      "name": "AxolotlWrap",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "axolotl_wrap",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cavesdelight/models/item/axolotl_wrap.json",
+          "src/main/java/de/lennyvy/cavesdelight/item/AxolotlWrapItem.java"
+        ]
+      },
+      "path": "~/items/effectfood"
+    },
+    {
+      "name": "CustomCreativeTabHandler",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "custom_creative_tab_handler",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/CustomCreativeTabHandler.java"
+        ]
+      },
+      "path": "~/misc"
+    },
+    {
+      "name": "AxolotlHide",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "axolotl_hide",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/item/AxolotlHideItem.java",
+          "src/main/resources/assets/cavesdelight/models/item/axolotl_hide.json"
+        ]
+      },
       "path": "~/items"
+    },
+    {
+      "name": "CookedStuffedAxolotlCookingPotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cooked_stuffed_axolotl_cooking_pot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/cooked_stuffed_axolotl_cooking_pot_recipe.json",
+          "src/main/resources/data/cavesdelight/advancement/recipes/cooked_stuffed_axolotl_cooking_pot_recipe.json"
+        ]
+      },
+      "path": "~/recipes/cooking_pot"
+    },
+    {
+      "name": "AxolotlWrapCookingPotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "axolotl_wrap_cooking_pot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/advancement/recipes/axolotl_wrap_cooking_pot_recipe.json",
+          "src/main/resources/data/cavesdelight/recipe/axolotl_wrap_cooking_pot_recipe.json"
+        ]
+      },
+      "path": "~/recipes/craftingtable"
+    },
+    {
+      "name": "AxolotlRoll",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "axolotl_roll",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/item/AxolotlRollItem.java",
+          "src/main/resources/assets/cavesdelight/models/item/axolotl_roll.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "AxolotlRollRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "axolotl_roll_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/axolotl_roll_recipe.json"
+        ]
+      },
+      "path": "~/recipes/craftingtable"
+    },
+    {
+      "name": "DeepCoalCerealsPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_coal_cereals_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/procedures/DeepCoalCerealsPlayerFinishesUsingItemProcedure.java"
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "HyacinthFlowerSoup",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hyacinth_flower_soup",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cavesdelight/models/item/hyacinth_flower_soup.json",
+          "src/main/java/de/lennyvy/cavesdelight/item/HyacinthFlowerSoupItem.java"
+        ]
+      },
+      "path": "~/items/effectfood"
+    },
+    {
+      "name": "HyacinthFlowerSoupCookingPotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hyacinth_flower_soup_cooking_pot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/advancement/recipes/hyacinth_flower_soup_cooking_pot_recipe.json",
+          "src/main/resources/data/cavesdelight/recipe/hyacinth_flower_soup_cooking_pot_recipe.json"
+        ]
+      },
+      "path": "~/recipes/cooking_pot"
+    },
+    {
+      "name": "GlowBerrySauce",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "glow_berry_sauce",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/item/GlowBerrySauceItem.java",
+          "src/main/resources/assets/cavesdelight/models/item/glow_berry_sauce.json"
+        ]
+      },
+      "path": "~/items/effectfood"
+    },
+    {
+      "name": "GlowBerrySauceCookingPotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "glow_berry_sauce_cooking_pot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/advancement/recipes/glow_berry_sauce_cooking_pot_recipe.json",
+          "src/main/resources/data/cavesdelight/recipe/glow_berry_sauce_cooking_pot_recipe.json"
+        ]
+      },
+      "path": "~/recipes/cooking_pot"
+    },
+    {
+      "name": "BurgerBuns",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burger_buns",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/item/BurgerBunsItem.java",
+          "src/main/resources/assets/cavesdelight/models/item/burger_buns.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "AxolotlBurger",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "axolotl_burger",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cavesdelight/models/item/axolotl_burger.json",
+          "src/main/java/de/lennyvy/cavesdelight/item/AxolotlBurgerItem.java"
+        ]
+      },
+      "path": "~/items/effectfood"
+    },
+    {
+      "name": "AxolotlBurgerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "axolotl_burger_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/advancement/recipes/axolotl_burger_recipe.json",
+          "src/main/resources/data/cavesdelight/recipe/axolotl_burger_recipe.json"
+        ]
+      },
+      "path": "~/recipes/craftingtable"
+    },
+    {
+      "name": "DoubleAxolotlBurger",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "double_axolotl_burger",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/item/DoubleAxolotlBurgerItem.java",
+          "src/main/resources/assets/cavesdelight/models/item/double_axolotl_burger.json"
+        ]
+      },
+      "path": "~/items/effectfood"
+    },
+    {
+      "name": "DoubleAxolotlBurgerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "double_axolotl_burger_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/double_axolotl_burger_recipe.json"
+        ]
+      },
+      "path": "~/recipes/craftingtable"
+    },
+    {
+      "name": "InfusedMushroomBurger",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "infused_mushroom_burger",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/item/InfusedMushroomBurgerItem.java",
+          "src/main/resources/assets/cavesdelight/models/item/infused_mushroom_burger.json"
+        ]
+      },
+      "path": "~/items/effectfood"
+    },
+    {
+      "name": "InfusedMushroomBurgerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "infused_mushroom_burger_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/infused_mushroom_burger_recipe.json"
+        ]
+      },
+      "path": "~/recipes/craftingtable"
+    },
+    {
+      "name": "InfusedDoubleMushroomBurger",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "infused_double_mushroom_burger",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/item/InfusedDoubleMushroomBurgerItem.java",
+          "src/main/resources/assets/cavesdelight/models/item/infused_double_mushroom_burger.json"
+        ]
+      },
+      "path": "~/items/effectfood"
+    },
+    {
+      "name": "InfusedDoubleMushroomBurgerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "infused_double_mushroom_burger_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/infused_double_mushroom_burger_recipe.json"
+        ]
+      },
+      "path": "~/recipes/craftingtable"
+    },
+    {
+      "name": "GlazedAxolotlHam",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "glazed_axolotl_ham",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/item/GlazedAxolotlHamItem.java",
+          "src/main/resources/assets/cavesdelight/models/item/glazed_axolotl_ham.json"
+        ]
+      },
+      "path": "~/items/effectfood"
+    },
+    {
+      "name": "CookedAxolotlHamCookingPotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cooked_axolotl_ham_cooking_pot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/cooked_axolotl_ham_cooking_pot_recipe.json",
+          "src/main/resources/data/cavesdelight/advancement/recipes/cooked_axolotl_ham_cooking_pot_recipe.json"
+        ]
+      },
+      "path": "~/recipes/cooking_pot"
+    },
+    {
+      "name": "EchoSightEffectStartedapplied",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "echo_sight_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/procedures/EchoSightEffectStartedappliedProcedure.java"
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "EchoSight",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "echo_sight",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/potion/EchoSightMobEffect.java"
+        ]
+      },
+      "path": "~/effects"
+    },
+    {
+      "name": "EchoSightTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "echo_sight_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/procedures/EchoSightTickProcedure.java"
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "EchoSightPotion",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "echo_sight_potion",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "EchoSight2",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "echo_sight_2",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "EchoSight3",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "echo_sight_3",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "EchoSightPotionRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "echo_sight_potion_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/recipe/brewing/EchoSightPotionRecipeBrewingRecipe.java"
+        ]
+      },
+      "path": "~/recipes/brewing"
+    },
+    {
+      "name": "EchoSight2PotionRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "echo_sight_2_potion_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/recipe/brewing/EchoSight2PotionRecipeBrewingRecipe.java"
+        ]
+      },
+      "path": "~/recipes/brewing"
+    },
+    {
+      "name": "EchoSight3PotionRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "echo_sight_3_potion_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/recipe/brewing/EchoSight3PotionRecipeBrewingRecipe.java"
+        ]
+      },
+      "path": "~/recipes/brewing"
+    },
+    {
+      "name": "SpiderLeg",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spider_leg",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/item/SpiderLegItem.java",
+          "src/main/resources/assets/cavesdelight/models/item/spider_leg.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "SpiderDropModificationProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spider_drop_modification_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/procedures/SpiderDropModificationProcedureProcedure.java"
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "ShimmeringGlowLichen",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "shimmering_glow_lichen",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/item/ShimmeringGlowLichenItem.java",
+          "src/main/resources/assets/cavesdelight/models/item/shimmering_glow_lichen.json"
+        ]
+      },
+      "path": "~/items/effectfood"
+    },
+    {
+      "name": "ShimmeringGlowLichenCookingPotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "shimmering_glow_lichen_cooking_pot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/advancement/recipes/shimmering_glow_lichen_cooking_pot_recipe.json",
+          "src/main/resources/data/cavesdelight/recipe/shimmering_glow_lichen_cooking_pot_recipe.json"
+        ]
+      },
+      "path": "~/recipes/cooking_pot"
+    },
+    {
+      "name": "SlimeJelloGreen",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "slime_jello_green",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/item/SlimeJelloGreenItem.java",
+          "src/main/resources/assets/cavesdelight/models/item/slime_jello_green.json"
+        ]
+      },
+      "path": "~/items/effectfood"
+    },
+    {
+      "name": "SlimeJelloBlack",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "slime_jello_black",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/item/SlimeJelloBlackItem.java",
+          "src/main/resources/assets/cavesdelight/models/item/slime_jello_black.json"
+        ]
+      },
+      "path": "~/items/effectfood"
+    },
+    {
+      "name": "SlimeJelloBlue",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "slime_jello_blue",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cavesdelight/models/item/slime_jello_blue.json",
+          "src/main/java/de/lennyvy/cavesdelight/item/SlimeJelloBlueItem.java"
+        ]
+      },
+      "path": "~/items/effectfood"
+    },
+    {
+      "name": "SlimeJelloBrown",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "slime_jello_brown",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/item/SlimeJelloBrownItem.java",
+          "src/main/resources/assets/cavesdelight/models/item/slime_jello_brown.json"
+        ]
+      },
+      "path": "~/items/effectfood"
+    },
+    {
+      "name": "SlimeJelloOrange",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "slime_jello_orange",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cavesdelight/models/item/slime_jello_orange.json",
+          "src/main/java/de/lennyvy/cavesdelight/item/SlimeJelloOrangeItem.java"
+        ]
+      },
+      "path": "~/items/effectfood"
+    },
+    {
+      "name": "SlimeJelloPink",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "slime_jello_pink",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cavesdelight/models/item/slime_jello_pink.json",
+          "src/main/java/de/lennyvy/cavesdelight/item/SlimeJelloPinkItem.java"
+        ]
+      },
+      "path": "~/items/effectfood"
+    },
+    {
+      "name": "SlimeJelloPurple",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "slime_jello_purple",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cavesdelight/models/item/slime_jello_purple.json",
+          "src/main/java/de/lennyvy/cavesdelight/item/SlimeJelloPurpleItem.java"
+        ]
+      },
+      "path": "~/items/effectfood"
+    },
+    {
+      "name": "SlimeJelloRed",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "slime_jello_red",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cavesdelight/models/item/slime_jello_red.json",
+          "src/main/java/de/lennyvy/cavesdelight/item/SlimeJelloRedItem.java"
+        ]
+      },
+      "path": "~/items/effectfood"
+    },
+    {
+      "name": "SlimeJelloYellow",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "slime_jello_yellow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cavesdelight/models/item/slime_jello_yellow.json",
+          "src/main/java/de/lennyvy/cavesdelight/item/SlimeJelloYellowItem.java"
+        ]
+      },
+      "path": "~/items/effectfood"
+    },
+    {
+      "name": "SlimeJelloWhite",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "slime_jello_white",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cavesdelight/models/item/slime_jello_white.json",
+          "src/main/java/de/lennyvy/cavesdelight/item/SlimeJelloWhiteItem.java"
+        ]
+      },
+      "path": "~/items/effectfood"
+    },
+    {
+      "name": "SlimeJelloBase",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_jello_base",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/item/SlimeJelloBaseItem.java",
+          "src/main/resources/assets/cavesdelight/models/item/slime_jello_base.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "SlimeJelloRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_jello_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/slime_jello_recipe.json"
+        ]
+      },
+      "path": "~/recipes/craftingtable"
+    },
+    {
+      "name": "SlimeJelloBlackRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_jello_black_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/slime_jello_black_recipe.json"
+        ]
+      },
+      "path": "~/recipes/craftingtable"
+    },
+    {
+      "name": "SlimeJelloBlueRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_jello_blue_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/slime_jello_blue_recipe.json"
+        ]
+      },
+      "path": "~/recipes/craftingtable"
+    },
+    {
+      "name": "SlimeJelloBrownRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_jello_brown_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/slime_jello_brown_recipe.json"
+        ]
+      },
+      "path": "~/recipes/craftingtable"
+    },
+    {
+      "name": "SlimeJelloGreenRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_jello_green_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/slime_jello_green_recipe.json"
+        ]
+      },
+      "path": "~/recipes/craftingtable"
+    },
+    {
+      "name": "SlimeJelloOrangeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_jello_orange_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/slime_jello_orange_recipe.json"
+        ]
+      },
+      "path": "~/recipes/craftingtable"
+    },
+    {
+      "name": "SlimeJelloPinkRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_jello_pink_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/slime_jello_pink_recipe.json"
+        ]
+      },
+      "path": "~/recipes/craftingtable"
+    },
+    {
+      "name": "SlimeJelloPurpleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_jello_purple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/slime_jello_purple_recipe.json"
+        ]
+      },
+      "path": "~/recipes/craftingtable"
+    },
+    {
+      "name": "SlimeJelloRedRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_jello_red_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/slime_jello_red_recipe.json"
+        ]
+      },
+      "path": "~/recipes/craftingtable"
+    },
+    {
+      "name": "SlimeJelloYellowRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_jello_yellow_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/slime_jello_yellow_recipe.json"
+        ]
+      },
+      "path": "~/recipes/craftingtable"
+    },
+    {
+      "name": "SlimeJelloBaseRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_jello_base_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/slime_jello_base_recipe.json"
+        ]
+      },
+      "path": "~/recipes/craftingtable"
+    },
+    {
+      "name": "BurgerBun",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burger_bun",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/item/BurgerBunItem.java",
+          "src/main/resources/assets/cavesdelight/models/item/burger_bun.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "BurgerBunRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burger_bun_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/burger_bun_recipe.json"
+        ]
+      },
+      "path": "~/recipes/craftingtable"
+    },
+    {
+      "name": "SlicedBurgerBunsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sliced_burger_buns_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/sliced_burger_buns_recipe.json",
+          "src/main/resources/data/cavesdelight/advancement/recipes/sliced_burger_buns_recipe.json"
+        ]
+      },
+      "path": "~/recipes/cutting"
+    },
+    {
+      "name": "SlimeJelloWhiteRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_jello_white_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/slime_jello_white_recipe.json"
+        ]
+      },
+      "path": "~/recipes/craftingtable"
+    },
+    {
+      "name": "SpiderBurger",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spider_burger",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/item/SpiderBurgerItem.java",
+          "src/main/resources/assets/cavesdelight/models/item/spider_burger.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "DoubleSpiderBurger",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "double_spider_burger",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/item/DoubleSpiderBurgerItem.java",
+          "src/main/resources/assets/cavesdelight/models/item/double_spider_burger.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "SpiderBurgerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spider_burger_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/advancement/recipes/spider_burger_recipe.json",
+          "src/main/resources/data/cavesdelight/recipe/spider_burger_recipe.json"
+        ]
+      },
+      "path": "~/recipes/craftingtable"
+    },
+    {
+      "name": "DoubleSpiderBurgerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "double_spider_burger_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/double_spider_burger_recipe.json",
+          "src/main/resources/data/cavesdelight/advancement/recipes/double_spider_burger_recipe.json"
+        ]
+      },
+      "path": "~/recipes/craftingtable"
+    },
+    {
+      "name": "StuffedAxolotlRightClickProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "stuffed_axolotl_right_click_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/procedures/StuffedAxolotlRightClickProcedureProcedure.java"
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "StuffedAxolotl",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "stuffed_axolotl",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cavesdelight/models/item/stuffed_axolotl.json",
+          "src/main/java/de/lennyvy/cavesdelight/item/StuffedAxolotlItem.java"
+        ]
+      },
+      "path": "~/items/effectfood"
+    },
+    {
+      "name": "CottonCandy",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cotton_candy",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/item/CottonCandyItem.java",
+          "src/main/resources/assets/cavesdelight/models/item/cotton_candy.json"
+        ]
+      },
+      "path": "~/items/effectfood"
+    },
+    {
+      "name": "CottonCandyRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cotton_candy_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/advancement/recipes/cotton_candy_recipe.json",
+          "src/main/resources/data/cavesdelight/recipe/cotton_candy_recipe.json"
+        ]
+      },
+      "path": "~/recipes/cooking_pot"
     }
   ],
   "variable_elements": [],
@@ -1042,39 +2061,23 @@
     ],
     "BLOCKS:minecraft:needs_diamond_tool": [
       "~CUSTOM:DeepCoalOre"
+    ],
+    "ITEMS:mod:jello": [
+      "CUSTOM:SlimeJelloGreen",
+      "CUSTOM:SlimeJelloBlack",
+      "CUSTOM:SlimeJelloBlue",
+      "CUSTOM:SlimeJelloBrown",
+      "CUSTOM:SlimeJelloOrange",
+      "CUSTOM:SlimeJelloPink",
+      "CUSTOM:SlimeJelloPurple",
+      "CUSTOM:SlimeJelloRed",
+      "CUSTOM:SlimeJelloYellow",
+      "CUSTOM:SlimeJelloWhite"
     ]
   },
-  "tab_element_order": {
-    "CUSTOM:CavesDelight": [
-      "ChessFlower",
-      "ChessFlowerPetals",
-      "HyacinthFlower",
-      "HyacinthFlowerPetals",
-      "RawGlowLichen",
-      "CookedGlowLichen",
-      "RawAxolotlHam",
-      "RawAxolotlSlice",
-      "CookedAxolotlSlice",
-      "Salt",
-      "AmethystPowder",
-      "AxolotlSpices",
-      "ShimmeringMushroom",
-      "SmallShimmeringMushrooms",
-      "ShimmeringMushroomSlice",
-      "SmallShimmeringMushroomSlice",
-      "DeepCoalOre",
-      "DeepCoal",
-      "DeepCoalCrumbs",
-      "DeepCoalCereals",
-      "GlowLichenWithDeepCoal",
-      "InfusedMushroomWrap",
-      "CookedAxolotlHam",
-      "ChessFlowerSoup"
-    ]
-  },
+  "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item_group.cavesdelight.caves_delight": "Cave\u0027s Delight",
       "block.cavesdelight.chess_flower": "Chess Flower",
       "item.cavesdelight.chess_flower_soup": "Chess Flower Soup",
       "item.cavesdelight.raw_glow_lichen": "Raw Glow Lichen",
@@ -1102,23 +2105,144 @@
       "block.cavesdelight.hyacinth_flower": "Hyacinth Flower",
       "item.cavesdelight.hyacinth_flower_petals": "Hyacinth Flower Petals",
       "block.cavesdelight.raw_stuffed_axolotl": "Raw Stuffed Axolotl",
-      "item.cavesdelight.axolotl_spices": "Axolotl Spices",
       "item.cavesdelight.infused_mushroom_wrap": "Infused Mushroom Wrap",
-      "item.cavesdelight.deep_coal_cereals": "Deep Coal Cereals"
+      "item.cavesdelight.deep_coal_cereals": "Deep Coal Cereals",
+      "item.cavesdelight.axolotl_wrap": "Axolotl Wrap",
+      "block.cavesdelight.cooked_stuffed_axolotl": "Cooked Stuffed Axolotl",
+      "item_group.cavesdelight.caves_delight": "Cave\u0027s Delight",
+      "item.cavesdelight.axolotl_hide": "Axolotl Hide",
+      "item.cavesdelight.axolotl_roll": "Axolotl Roll",
+      "item.cavesdelight.hyacinth_flower_soup": "Hyacinth Soup",
+      "item.cavesdelight.glow_berry_sauce": "Glow Berry Sauce",
+      "item.cavesdelight.burger_buns": "Burger Buns",
+      "item.cavesdelight.axolotl_burger": "Axolotl Burger",
+      "item.cavesdelight.double_axolotl_burger": "Double Axolotl Burger",
+      "item.cavesdelight.infused_mushroom_burger": "Infused Mushroom Burger",
+      "item.cavesdelight.infused_double_mushroom_burger": "Infused Double Mushroom Burger",
+      "item.cavesdelight.glazed_axolotl_ham": "Glazed Axolotl Ham",
+      "effect.cavesdelight.echo_sight": "Echo Sight",
+      "item.minecraft.splash_potion.effect.echo_sight_potion": "Splash Potion of Echo Sight",
+      "item.minecraft.lingering_potion.effect.echo_sight_potion": "Lingering Potion of Echo Sight",
+      "item.minecraft.tipped_arrow.effect.echo_sight_potion": "Arrow of Echo Sight",
+      "item.minecraft.potion.effect.echo_sight_potion": "Potion of Echo Sight",
+      "item.minecraft.potion.effect.echo_sight_2": "Potion of Echo Sight",
+      "item.minecraft.lingering_potion.effect.echo_sight_2": "Lingering Potion of Echo Sight",
+      "item.minecraft.tipped_arrow.effect.echo_sight_2": "Arrow of Echo Sight",
+      "item.minecraft.splash_potion.effect.echo_sight_2": "Splash Potion of Echo Sight",
+      "item.minecraft.tipped_arrow.effect.echo_sight_3": "Arrow of Echo Sight",
+      "item.minecraft.potion.effect.echo_sight_3": "Potion of Echo Sight",
+      "item.minecraft.lingering_potion.effect.echo_sight_3": "Lingering Potion of Echo Sight",
+      "item.minecraft.splash_potion.effect.echo_sight_3": "Splash Potion of Echo Sight",
+      "item.cavesdelight.spider_leg": "Spider Leg",
+      "item.cavesdelight.shimmering_glow_lichen": "Shimmering Glow Lichen",
+      "item.cavesdelight.slime_jello_green": "Green Slime Jello",
+      "item.cavesdelight.green_slime_jello": "Green Slime Jello",
+      "item.cavesdelight.slime_jello_black": "Black Slime Jello",
+      "item.cavesdelight.slime_jello_blue": "Blue Slime Jello",
+      "item.cavesdelight.slime_jello_brown": "Brown Slime Jello",
+      "item.cavesdelight.slime_jello_orange": "Orange Slime Jello",
+      "item.cavesdelight.slime_jello_pink": "Pink Slime Jello",
+      "item.cavesdelight.slime_jello_purple": "Purple Slime Jello",
+      "item.cavesdelight.slime_jello_red": "Red Slime Jello",
+      "item.cavesdelight.slime_jello_yellow": "Yellow Slime Jello",
+      "item.cavesdelight.slime_jello_white": "White Slime Jello",
+      "item.cavesdelight.slime_jello_base": "Slime Jello Base",
+      "item.cavesdelight.burger_bun": "Burger Buns",
+      "item.cavesdelight.spider_burger": "Spider Burger",
+      "item.cavesdelight.double_spider_burger": "Spider Burger",
+      "item.cavesdelight.stuffed_axolotl": "Stuffed Axolotl",
+      "item.cavesdelight.cotton_candy": "Cobweb Cotton Candy"
+    },
+    "de_de": {
+      "block.cavesdelight.chess_flower": "Schachblume",
+      "item.cavesdelight.chess_flower_soup": "Schachblumensuppe",
+      "item.cavesdelight.raw_glow_lichen": "Rohe Leuchtflechte",
+      "item.cavesdelight.cooked_glow_lichen": "Gebratene Leuchtflechte",
+      "item.cavesdelight.raw_axolotl_ham": "Roher Axolotlschinken",
+      "item.cavesdelight.cooked_axolotl_ham": "Gebratener Axolotlschinken",
+      "jei.cavesdelight.axolotl_ham_info": "Wenn du diese Ressource bekommen möchtest, musst du ein Messer benutzen.",
+      "jei.cavesdelight.chess_flower_info": "Diese Blumen wachsen nur in den Üppigen Höhlen. Falls du mehr brauchst, benutze Knochenmehl.",
+      "jei.cavesdelight.glow_lichen_info": "Versuche mal die Leuchtflechte mit einem Messer abzubauen.",
+      "item.cavesdelight.salt": "Salz",
+      "item.cavesdelight.amethyst_powder": "Gemahlener Amethyst",
+      "item.cavesdelight.chess_flower_petals": "Schachblumenblütenblätter",
+      "item.cavesdelight.raw_axolotl_slice": "Rohe Axolotlscheibe",
+      "item.cavesdelight.cooked_axolotl_slice": "Gebratene Axolotlscheibe",
+      "block.cavesdelight.shimmering_mushroom": "Schimmerplz",
+      "block.cavesdelight.small_shimmering_mushrooms": "Kleine schimmerpilze",
+      "item.cavesdelight.deep_coal": "Tiefenkohle",
+      "block.cavesdelight.deep_coal_ore": "Tiefenkohleerz",
+      "item.cavesdelight.deep_coal_crumbs": "Tiefenkohlestücke",
+      "jei.cavesdelight.deep_coal_info": "Tiefenkohle ist an den tiefsten und dunkelsten Orten zu finden. Doch Vorsicht: Da ist etwas, das lauscht ... ",
+      "jei.cavesdelight.shimmering_mushroom_info": "Schimmerpilze wachsen nur in den dunkelsten Höhlen da draußen. Sie gehören zu den wenigen Lichtquellen dort unten.",
+      "item.cavesdelight.glow_lichen_with_deep_coal": "Leuchtflechte mit Tiefenkohle",
+      "item.cavesdelight.shimmering_mushroom_slice": "Schimmerpilz Stücke",
+      "item.cavesdelight.small_shimmering_mushroom_slice": "Kleine Schimmerpilz Stücke",
+      "block.cavesdelight.hyacinth_flower": "Hyazinthe",
+      "item.cavesdelight.hyacinth_flower_petals": "Hyazinthenblütenblätter",
+      "block.cavesdelight.raw_stuffed_axolotl": "Rohes gefülltes Axolotl",
+      "item.cavesdelight.infused_mushroom_wrap": "Schimmerpilzen Wrap",
+      "item.cavesdelight.deep_coal_cereals": "Tiefenkohle Cerealien",
+      "item.cavesdelight.axolotl_wrap": "Axolotl Wrap",
+      "block.cavesdelight.cooked_stuffed_axolotl": "Gebratenes gefülltes Axolotl",
+      "item_group.cavesdelight.caves_delight": "Cave\u0027s Delight",
+      "item.cavesdelight.axolotl_hide": "Axolotlhaut",
+      "item.cavesdelight.axolotl_roll": "Axolotlsushi",
+      "item.cavesdelight.hyacinth_flower_soup": "Hyazintensuppe",
+      "item.cavesdelight.glow_berry_sauce": "Leuchtbeerensuppe",
+      "item.cavesdelight.burger_buns": "Geschnittenes Burger Brötchen",
+      "item.cavesdelight.axolotl_burger": "Axolotlburger",
+      "item.cavesdelight.double_axolotl_burger": "Doppelpatty Axolotlburger",
+      "item.cavesdelight.infused_mushroom_burger": "Schimmerpilz Burger",
+      "item.cavesdelight.infused_double_mushroom_burger": "Doppelschimmerpilz Burger",
+      "item.cavesdelight.glazed_axolotl_ham": " Glasierter Axolotlschinken",
+      "effect.cavesdelight.echo_sight": "Echo Sicht",
+      "item.minecraft.splash_potion.effect.echo_sight_potion": "Wurftrank der Echosicht ",
+      "item.minecraft.lingering_potion.effect.echo_sight_potion": "Verweilender Trank der Echosicht",
+      "item.minecraft.tipped_arrow.effect.echo_sight_potion": "Pfeil der Echosicht",
+      "item.minecraft.potion.effect.echo_sight_potion": "Trank der Echosicht",
+      "item.minecraft.potion.effect.echo_sight_2": "Trank der Echosicht",
+      "item.minecraft.lingering_potion.effect.echo_sight_2": "Verweilender Trank der Echosicht",
+      "item.minecraft.tipped_arrow.effect.echo_sight_2": "Pfeil der Echosicht",
+      "item.minecraft.splash_potion.effect.echo_sight_2": "Wurftrank der Echosicht ",
+      "item.minecraft.tipped_arrow.effect.echo_sight_3": "Pfeil der Echosicht",
+      "item.minecraft.potion.effect.echo_sight_3": "Trank der Echosicht",
+      "item.minecraft.lingering_potion.effect.echo_sight_3": "Verweilender Trank der Echosicht",
+      "item.minecraft.splash_potion.effect.echo_sight_3": "Wurftrank der Echosicht ",
+      "item.cavesdelight.spider_leg": "Spinnenbein",
+      "item.cavesdelight.shimmering_glow_lichen": "Schimmerpilz Leuchtflechte",
+      "item.cavesdelight.slime_jello_green": "Grüner Wackelpudding",
+      "item.cavesdelight.green_slime_jello": "Grüner Wackelpudding",
+      "item.cavesdelight.slime_jello_black": "Schwarzer Wackelpudding",
+      "item.cavesdelight.slime_jello_blue": "Blauer Wackelpudding",
+      "item.cavesdelight.slime_jello_brown": "Brauner Wackelpudding",
+      "item.cavesdelight.slime_jello_orange": "Orangener Wackelpudding",
+      "item.cavesdelight.slime_jello_pink": "Pinker Wackelpudding",
+      "item.cavesdelight.slime_jello_purple": "Lila Wackelpudding",
+      "item.cavesdelight.slime_jello_red": "Roter Wackelpudding",
+      "item.cavesdelight.slime_jello_yellow": "Gelber Wackelpudding",
+      "item.cavesdelight.slime_jello_white": "Weißer Wackelpudding",
+      "item.cavesdelight.slime_jello_base": "Wackelpudding Basis",
+      "item.cavesdelight.burger_bun": "Burger Brötchen",
+      "item.cavesdelight.spider_burger": "Spinnenbein Burger",
+      "item.cavesdelight.double_spider_burger": "Doppespinnenbeinburger",
+      "item.cavesdelight.stuffed_axolotl": "Stuffed Axolotl",
+      "item.cavesdelight.cotton_candy": "Cobweb Cotton Candy"
     }
   },
   "metadata": {
     "files": [
       "src/main/java/de/lennyvy/cavesdelight/init/CavesdelightModFuels.java",
       "src/main/java/de/lennyvy/cavesdelight/init/CavesdelightModJeiInformation.java",
+      "src/main/java/de/lennyvy/cavesdelight/init/CavesdelightModMobEffects.java",
+      "src/main/java/de/lennyvy/cavesdelight/init/CavesdelightModPotions.java",
       "src/main/java/de/lennyvy/cavesdelight/init/CavesdelightModBrewingRecipes.java",
       "src/main/java/de/lennyvy/cavesdelight/init/CavesdelightModBlocks.java",
       "src/main/java/de/lennyvy/cavesdelight/init/CavesdelightModItems.java",
       "src/main/java/de/lennyvy/cavesdelight/CavesdelightMod.java",
       "src/main/resources/pack.mcmeta",
       "src/main/resources/META-INF/accesstransformer.cfg",
-      "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/java/de/lennyvy/cavesdelight/init/CavesdelightModTabs.java"
+      "src/main/resources/META-INF/neoforge.mods.toml"
     ]
   },
   "foldersRoot": {
@@ -1155,6 +2279,10 @@
           {
             "name": "cutting",
             "children": []
+          },
+          {
+            "name": "brewing",
+            "children": []
           }
         ]
       },
@@ -1181,13 +2309,17 @@
       {
         "name": "mixin",
         "children": []
+      },
+      {
+        "name": "effects",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "cavesdelight",
     "modName": " Cave\u0027s Delight",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "FarmersDelight Addon for Cave Focused Content",
     "author": "lennyvy",
     "websiteURL": "https://discord.gg/RUwGNhn4qS",

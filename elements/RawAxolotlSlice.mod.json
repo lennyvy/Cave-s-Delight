@@ -11,11 +11,7 @@
     "animations": [],
     "name": "Raw Axolotl Slice",
     "rarity": "COMMON",
-    "creativeTabs": [
-      {
-        "value": "CUSTOM:CavesDelight"
-      }
-    ],
+    "creativeTabs": [],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 32,
@@ -52,7 +48,7 @@
     },
     "projectileDisableAmmoCheck": false,
     "isFood": true,
-    "nutritionalValue": 2,
+    "nutritionalValue": 1,
     "saturation": 0.5,
     "eatResultItem": {
       "value": ""

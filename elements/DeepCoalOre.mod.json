@@ -50,11 +50,7 @@
     "maxStackSize": 64,
     "rarity": "COMMON",
     "immuneToFire": true,
-    "creativeTabs": [
-      {
-        "value": "CUSTOM:CavesDelight"
-      }
-    ],
+    "creativeTabs": [],
     "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
@@ -155,7 +151,7 @@
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 32,
     "frequencyOnChunk": 16,
-    "minGenerateHeight": -64,
-    "maxGenerateHeight": -16
+    "minGenerateHeight": -200,
+    "maxGenerateHeight": 360
   }
 }

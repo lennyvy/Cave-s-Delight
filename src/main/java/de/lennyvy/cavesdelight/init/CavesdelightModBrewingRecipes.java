@@ -1,8 +1,11 @@
 package de.lennyvy.cavesdelight.init;
 
+import net.minecraft.world.item.alchemy.Potions;
+import net.minecraft.world.item.alchemy.PotionContents;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.core.component.DataComponents;
 
 import mezz.jei.api.registration.IRecipeRegistration;
 import mezz.jei.api.recipe.vanilla.IVanillaRecipeFactory;
@@ -29,6 +32,21 @@ public class CavesdelightModBrewingRecipes implements IModPlugin {
 		ItemStack potion2 = new ItemStack(Items.POTION);
 		List<ItemStack> ingredientStack = new ArrayList<>();
 		List<ItemStack> inputStack = new ArrayList<>();
+		ingredientStack.add(new ItemStack(CavesdelightModItems.AMETHYST_POWDER.get()));
+		potion.set(DataComponents.POTION_CONTENTS, new PotionContents(Potions.AWKWARD));
+		potion2.set(DataComponents.POTION_CONTENTS, new PotionContents(CavesdelightModPotions.ECHO_SIGHT_POTION));
+		brewingRecipes.add(factory.createBrewingRecipe(List.copyOf(ingredientStack), potion.copy(), potion2.copy()));
+		ingredientStack.clear();
+		ingredientStack.add(new ItemStack(Items.REDSTONE));
+		potion.set(DataComponents.POTION_CONTENTS, new PotionContents(CavesdelightModPotions.ECHO_SIGHT_POTION));
+		potion2.set(DataComponents.POTION_CONTENTS, new PotionContents(CavesdelightModPotions.ECHO_SIGHT_2));
+		brewingRecipes.add(factory.createBrewingRecipe(List.copyOf(ingredientStack), potion.copy(), potion2.copy()));
+		ingredientStack.clear();
+		ingredientStack.add(new ItemStack(Items.GLOWSTONE_DUST));
+		potion.set(DataComponents.POTION_CONTENTS, new PotionContents(CavesdelightModPotions.ECHO_SIGHT_POTION));
+		potion2.set(DataComponents.POTION_CONTENTS, new PotionContents(CavesdelightModPotions.ECHO_SIGHT_3));
+		brewingRecipes.add(factory.createBrewingRecipe(List.copyOf(ingredientStack), potion.copy(), potion2.copy()));
+		ingredientStack.clear();
 		registration.addRecipes(RecipeTypes.BREWING, brewingRecipes);
 	}
 }

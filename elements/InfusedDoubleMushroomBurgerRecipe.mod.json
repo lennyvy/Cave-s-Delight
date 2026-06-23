@@ -1,0 +1,49 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BurgerBuns"
+      },
+      {
+        "value": "CUSTOM:AmethystPowder"
+      },
+      {
+        "value": "CUSTOM:ShimmeringMushroomSlice"
+      },
+      {
+        "value": "CUSTOM:ShimmeringMushroomSlice"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:InfusedDoubleMushroomBurger"
+    },
+    "name": "infused_double_mushroom_burger_recipe",
+    "namespace": "mod"
+  }
+}

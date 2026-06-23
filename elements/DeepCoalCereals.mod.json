@@ -11,12 +11,8 @@
     "animations": [],
     "name": "Deep Coal Cereals",
     "rarity": "COMMON",
-    "creativeTabs": [
-      {
-        "value": "CUSTOM:CavesDelight"
-      }
-    ],
-    "stackSize": 64,
+    "creativeTabs": [],
+    "stackSize": 16,
     "enchantability": 0,
     "useDuration": 32,
     "toolType": 1.0,
@@ -44,6 +40,9 @@
     },
     "inventorySize": 9,
     "inventoryStackSize": 99,
+    "onFinishUsingItem": {
+      "name": "DeepCoalCerealsPlayerFinishesUsingItem"
+    },
     "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,
@@ -52,13 +51,13 @@
     },
     "projectileDisableAmmoCheck": false,
     "isFood": true,
-    "nutritionalValue": 8,
+    "nutritionalValue": 6,
     "saturation": 1.2,
     "eatResultItem": {
       "value": "Items.BOWL"
     },
     "isMeat": false,
-    "isAlwaysEdible": false,
+    "isAlwaysEdible": true,
     "animation": "eat",
     "isMusicDisc": false,
     "musicDiscMusic": {

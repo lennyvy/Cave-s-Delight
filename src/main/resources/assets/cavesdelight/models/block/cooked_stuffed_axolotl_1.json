@@ -1,0 +1,9 @@
+{
+  "parent": "cavesdelight:custom/cooked_stuffed_axolotl",
+  "textures": {
+    "3": "cavesdelight:block/cooked_stuffed_axolotl_1",
+    "missing": "cavesdelight:block/cooked_stuffed_axolotl_1",
+    "particle": "cavesdelight:item/cooked_stuffed_axolotl_1"
+  },
+  "render_type": "cutout_mipped"
+}

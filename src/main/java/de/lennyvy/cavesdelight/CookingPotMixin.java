@@ -24,9 +24,6 @@ public class CookingPotMixin {
     private static final int OUTPUT_SLOT = 8;
     private static final Map<CookingPotBlockEntity, CookingPotCaches> CACHE = new ConcurrentHashMap<>();
 
-    // ------------------------------------------------------------
-    // 1) Gemeinsamer HEAD-Inject: Blockade + Cache befüllen
-    // ------------------------------------------------------------
     @Inject(method = "cookingTick", at = @At("HEAD"), cancellable = true)
     private static void cavesdelight$handleHead(Level level, BlockPos pos, BlockState state,
                                                  CookingPotBlockEntity self, CallbackInfo ci) {
@@ -35,7 +32,6 @@ public class CookingPotMixin {
         ItemStackHandler inv = self.getInventory();
         ItemStack output = inv.getStackInSlot(OUTPUT_SLOT);
 
-        // --- CMD aus den Zutaten ermitteln (erste gültige) ---
         CustomModelData inputCmd = null;
         for (int i = 0; i <= 5; i++) {
             ItemStack ingredient = inv.getStackInSlot(i);
@@ -45,24 +41,19 @@ public class CookingPotMixin {
             }
         }
 
-        // --- Kochblockade, wenn Output-CMD ≠ Zutaten-CMD ---
         if (!output.isEmpty()) {
             CustomModelData outputCmd = output.get(DataComponents.CUSTOM_MODEL_DATA);
             if (!Objects.equals(outputCmd, inputCmd)) {
-                ci.cancel();            // gesamten Tick abbrechen
-                return;                 // kein Cache befüllen
+                ci.cancel();
+                return;
             }
         }
 
-        // --- Cache für die spätere Übertragung befüllen ---
         ItemStack outputCopy = output.copy();
         CACHE.put(self, new CookingPotCaches(inputCmd, outputCopy));
         
     }
-
-    // ------------------------------------------------------------
-    // 2) RETURN-Inject: CMD übertragen, wenn Output sich geändert hat
-    // ------------------------------------------------------------
+    
     @Inject(method = "cookingTick", at = @At("RETURN"))
     private static void cavesdelight$applyCmdIfCooked(Level level, BlockPos pos, BlockState state,
                                                        CookingPotBlockEntity self, CallbackInfo ci) {
@@ -87,9 +78,6 @@ public class CookingPotMixin {
         }
     }
 
-    // ------------------------------------------------------------
-    // 3) Cache aufräumen, wenn der Block entfernt wird
-    // ------------------------------------------------------------
     @Inject(method = "setRemoved", at = @At("HEAD"))
     private void cavesdelight$clearCache(CallbackInfo ci) {
         CACHE.remove((CookingPotBlockEntity) (Object) this);

@@ -12,6 +12,8 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
 
+import de.lennyvy.cavesdelight.init.CavesdelightModMobEffects;
+
 import vectorwing.farmersdelight.common.utility.TextUtils;
 
 import java.util.List;
@@ -20,7 +22,8 @@ import java.util.List;
 public class SmallShimmeringMushroomSliceItem extends Item {
 	public SmallShimmeringMushroomSliceItem() {
 		super(new Item.Properties().food((new FoodProperties.Builder()).nutrition(2).saturationModifier(0.5f)
-			.effect(() -> new MobEffectInstance(MobEffects.DARKNESS, 100, 0), 1.0f).alwaysEdible().build()));
+			.effect(() -> new MobEffectInstance(MobEffects.DARKNESS, 100, 0), 1.0f)
+			.effect(() -> new MobEffectInstance(CavesdelightModMobEffects.ECHO_SIGHT, 200, 3), 1.0f).build()));
 	}
 
 	 @Override

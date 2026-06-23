@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "cavesdelight:jello"
+    },
+    {
+      "item": "minecraft:pink_petals"
+    }
+  ],
+  "result": {
+    "id": "cavesdelight:slime_jello_pink",
+    "count": 1
+  }
+}

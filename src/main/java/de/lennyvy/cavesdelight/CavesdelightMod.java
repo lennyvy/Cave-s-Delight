@@ -29,6 +29,8 @@ import it.unimi.dsi.fastutil.ints.IntObjectPair;
 import it.unimi.dsi.fastutil.ints.IntObjectImmutablePair;
 
 import de.lennyvy.cavesdelight.init.CavesdelightModTabs;
+import de.lennyvy.cavesdelight.init.CavesdelightModPotions;
+import de.lennyvy.cavesdelight.init.CavesdelightModMobEffects;
 import de.lennyvy.cavesdelight.init.CavesdelightModItems;
 import de.lennyvy.cavesdelight.init.CavesdelightModBlocks;
 
@@ -45,6 +47,8 @@ public class CavesdelightMod {
 		CavesdelightModBlocks.REGISTRY.register(modEventBus);
 		CavesdelightModItems.REGISTRY.register(modEventBus);
 		CavesdelightModTabs.REGISTRY.register(modEventBus);
+		CavesdelightModPotions.REGISTRY.register(modEventBus);
+		CavesdelightModMobEffects.REGISTRY.register(modEventBus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

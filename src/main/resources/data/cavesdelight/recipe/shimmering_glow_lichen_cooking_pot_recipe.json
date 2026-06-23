@@ -1,0 +1,24 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "id": "minecraft:bowl"
+  },
+  "cookingtime": 160,
+  "experience": 3,
+  "ingredients": [
+    {
+      "item": "cavesdelight:shimmering_mushroom_slice"
+    },
+    {
+      "item": "cavesdelight:small_shimmering_mushroom_slice"
+    },
+    {
+      "item": "cavesdelight:salt"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "id": "cavesdelight:shimmering_glow_lichen",
+    "count": 1
+  }
+}

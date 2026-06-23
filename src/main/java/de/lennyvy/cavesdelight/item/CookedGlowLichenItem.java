@@ -20,7 +20,7 @@ import java.util.List;
 public class CookedGlowLichenItem extends Item {
 	public CookedGlowLichenItem() {
 		super(new Item.Properties().food((new FoodProperties.Builder()).nutrition(4).saturationModifier(0.35f)
-			.effect(() -> new MobEffectInstance(MobEffects.GLOWING, 160, 0), 1.0f).alwaysEdible().build()));
+			.effect(() -> new MobEffectInstance(MobEffects.GLOWING, 160, 0), 1.0f).build()));
 	}
 
 	 @Override

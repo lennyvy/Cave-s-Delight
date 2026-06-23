@@ -1,0 +1,22 @@
+{
+  "_fv": 85,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Echo Sight",
+    "splashName": "Splash Potion of Echo Sight",
+    "lingeringName": "Lingering Potion of Echo Sight",
+    "arrowName": "Arrow of Echo Sight",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:EchoSight"
+        },
+        "duration": 6000,
+        "infinite": false,
+        "amplifier": 1,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

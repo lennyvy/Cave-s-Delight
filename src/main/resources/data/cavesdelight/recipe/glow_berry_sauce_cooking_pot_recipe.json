@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "id": "minecraft:bowl"
+  },
+  "cookingtime": 110,
+  "experience": 0.3,
+  "ingredients": [
+    {
+      "item": "minecraft:glow_berries"
+    },
+    {
+      "item": "minecraft:glow_berries"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "id": "cavesdelight:glow_berry_sauce",
+    "count": 1
+  }
+}

@@ -5,6 +5,12 @@
     "items": [
       {
         "value": "CUSTOM:RawAxolotlHam"
+      },
+      {
+        "value": "CUSTOM:AxolotlHide"
+      },
+      {
+        "value": "CUSTOM:SpiderLeg"
       }
     ],
     "information": [

@@ -11,11 +11,7 @@
     "animations": [],
     "name": "Cooked Axolotl Slice",
     "rarity": "COMMON",
-    "creativeTabs": [
-      {
-        "value": "CUSTOM:CavesDelight"
-      }
-    ],
+    "creativeTabs": [],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 32,
@@ -52,8 +48,8 @@
     },
     "projectileDisableAmmoCheck": false,
     "isFood": true,
-    "nutritionalValue": 6,
-    "saturation": 0.7,
+    "nutritionalValue": 4,
+    "saturation": 0.75,
     "eatResultItem": {
       "value": ""
     },

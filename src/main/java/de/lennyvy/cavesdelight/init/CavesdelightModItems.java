@@ -37,9 +37,37 @@ public class CavesdelightModItems {
 	public static final DeferredItem<Item> SMALL_SHIMMERING_MUSHROOM_SLICE;
 	public static final DeferredItem<Item> HYACINTH_FLOWER;
 	public static final DeferredItem<Item> HYACINTH_FLOWER_PETALS;
-	public static final DeferredItem<Item> AXOLOTL_SPICES;
 	public static final DeferredItem<Item> INFUSED_MUSHROOM_WRAP;
 	public static final DeferredItem<Item> DEEP_COAL_CEREALS;
+	public static final DeferredItem<Item> AXOLOTL_WRAP;
+	public static final DeferredItem<Item> AXOLOTL_HIDE;
+	public static final DeferredItem<Item> AXOLOTL_ROLL;
+	public static final DeferredItem<Item> HYACINTH_FLOWER_SOUP;
+	public static final DeferredItem<Item> GLOW_BERRY_SAUCE;
+	public static final DeferredItem<Item> BURGER_BUNS;
+	public static final DeferredItem<Item> AXOLOTL_BURGER;
+	public static final DeferredItem<Item> DOUBLE_AXOLOTL_BURGER;
+	public static final DeferredItem<Item> INFUSED_MUSHROOM_BURGER;
+	public static final DeferredItem<Item> INFUSED_DOUBLE_MUSHROOM_BURGER;
+	public static final DeferredItem<Item> GLAZED_AXOLOTL_HAM;
+	public static final DeferredItem<Item> SPIDER_LEG;
+	public static final DeferredItem<Item> SHIMMERING_GLOW_LICHEN;
+	public static final DeferredItem<Item> SLIME_JELLO_GREEN;
+	public static final DeferredItem<Item> SLIME_JELLO_BLACK;
+	public static final DeferredItem<Item> SLIME_JELLO_BLUE;
+	public static final DeferredItem<Item> SLIME_JELLO_BROWN;
+	public static final DeferredItem<Item> SLIME_JELLO_ORANGE;
+	public static final DeferredItem<Item> SLIME_JELLO_PINK;
+	public static final DeferredItem<Item> SLIME_JELLO_PURPLE;
+	public static final DeferredItem<Item> SLIME_JELLO_RED;
+	public static final DeferredItem<Item> SLIME_JELLO_YELLOW;
+	public static final DeferredItem<Item> SLIME_JELLO_WHITE;
+	public static final DeferredItem<Item> SLIME_JELLO_BASE;
+	public static final DeferredItem<Item> BURGER_BUN;
+	public static final DeferredItem<Item> SPIDER_BURGER;
+	public static final DeferredItem<Item> DOUBLE_SPIDER_BURGER;
+	public static final DeferredItem<Item> STUFFED_AXOLOTL;
+	public static final DeferredItem<Item> COTTON_CANDY;
 	static {
 		CHESS_FLOWER = block(CavesdelightModBlocks.CHESS_FLOWER);
 		CHESS_FLOWER_SOUP = REGISTRY.register("chess_flower_soup", ChessFlowerSoupItem::new);
@@ -62,12 +90,41 @@ public class CavesdelightModItems {
 		SMALL_SHIMMERING_MUSHROOM_SLICE = REGISTRY.register("small_shimmering_mushroom_slice", SmallShimmeringMushroomSliceItem::new);
 		HYACINTH_FLOWER = block(CavesdelightModBlocks.HYACINTH_FLOWER);
 		HYACINTH_FLOWER_PETALS = REGISTRY.register("hyacinth_flower_petals", HyacinthFlowerPetalsItem::new);
-		AXOLOTL_SPICES = REGISTRY.register("axolotl_spices", AxolotlSpicesItem::new);
 		INFUSED_MUSHROOM_WRAP = REGISTRY.register("infused_mushroom_wrap", InfusedMushroomWrapItem::new);
 		DEEP_COAL_CEREALS = REGISTRY.register("deep_coal_cereals", DeepCoalCerealsItem::new);
+		AXOLOTL_WRAP = REGISTRY.register("axolotl_wrap", AxolotlWrapItem::new);
+		AXOLOTL_HIDE = REGISTRY.register("axolotl_hide", AxolotlHideItem::new);
+		AXOLOTL_ROLL = REGISTRY.register("axolotl_roll", AxolotlRollItem::new);
+		HYACINTH_FLOWER_SOUP = REGISTRY.register("hyacinth_flower_soup", HyacinthFlowerSoupItem::new);
+		GLOW_BERRY_SAUCE = REGISTRY.register("glow_berry_sauce", GlowBerrySauceItem::new);
+		BURGER_BUNS = REGISTRY.register("burger_buns", BurgerBunsItem::new);
+		AXOLOTL_BURGER = REGISTRY.register("axolotl_burger", AxolotlBurgerItem::new);
+		DOUBLE_AXOLOTL_BURGER = REGISTRY.register("double_axolotl_burger", DoubleAxolotlBurgerItem::new);
+		INFUSED_MUSHROOM_BURGER = REGISTRY.register("infused_mushroom_burger", InfusedMushroomBurgerItem::new);
+		INFUSED_DOUBLE_MUSHROOM_BURGER = REGISTRY.register("infused_double_mushroom_burger", InfusedDoubleMushroomBurgerItem::new);
+		GLAZED_AXOLOTL_HAM = REGISTRY.register("glazed_axolotl_ham", GlazedAxolotlHamItem::new);
+		SPIDER_LEG = REGISTRY.register("spider_leg", SpiderLegItem::new);
+		SHIMMERING_GLOW_LICHEN = REGISTRY.register("shimmering_glow_lichen", ShimmeringGlowLichenItem::new);
+		SLIME_JELLO_GREEN = REGISTRY.register("slime_jello_green", SlimeJelloGreenItem::new);
+		SLIME_JELLO_BLACK = REGISTRY.register("slime_jello_black", SlimeJelloBlackItem::new);
+		SLIME_JELLO_BLUE = REGISTRY.register("slime_jello_blue", SlimeJelloBlueItem::new);
+		SLIME_JELLO_BROWN = REGISTRY.register("slime_jello_brown", SlimeJelloBrownItem::new);
+		SLIME_JELLO_ORANGE = REGISTRY.register("slime_jello_orange", SlimeJelloOrangeItem::new);
+		SLIME_JELLO_PINK = REGISTRY.register("slime_jello_pink", SlimeJelloPinkItem::new);
+		SLIME_JELLO_PURPLE = REGISTRY.register("slime_jello_purple", SlimeJelloPurpleItem::new);
+		SLIME_JELLO_RED = REGISTRY.register("slime_jello_red", SlimeJelloRedItem::new);
+		SLIME_JELLO_YELLOW = REGISTRY.register("slime_jello_yellow", SlimeJelloYellowItem::new);
+		SLIME_JELLO_WHITE = REGISTRY.register("slime_jello_white", SlimeJelloWhiteItem::new);
+		SLIME_JELLO_BASE = REGISTRY.register("slime_jello_base", SlimeJelloBaseItem::new);
+		BURGER_BUN = REGISTRY.register("burger_bun", BurgerBunItem::new);
+		SPIDER_BURGER = REGISTRY.register("spider_burger", SpiderBurgerItem::new);
+		DOUBLE_SPIDER_BURGER = REGISTRY.register("double_spider_burger", DoubleSpiderBurgerItem::new);
+		STUFFED_AXOLOTL = REGISTRY.register("stuffed_axolotl", StuffedAxolotlItem::new);
+		COTTON_CANDY = REGISTRY.register("cotton_candy", CottonCandyItem::new);
 	}
 	// Start of user code block custom items
 	public static final DeferredItem<Item> RAW_STUFFED_AXOLOTL = REGISTRY.register("raw_stuffed_axolotl", () -> new RawStuffedAxolotlItem(CavesdelightModBlocks.RAW_STUFFED_AXOLOTL.get(), new Item.Properties()));
+	public static final DeferredItem<Item> COOKED_STUFFED_AXOLOTL = REGISTRY.register("cooked_stuffed_axolotl", () -> new CookedStuffedAxolotlItem(CavesdelightModBlocks.COOKED_STUFFED_AXOLOTL.get(), new Item.Properties()));
 
 	// End of user code block custom items
 	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block) {

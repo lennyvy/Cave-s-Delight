@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "cavesdelight:jello"
+    },
+    {
+      "item": "cavesdelight:amethyst_powder"
+    }
+  ],
+  "result": {
+    "id": "cavesdelight:slime_jello_purple",
+    "count": 1
+  }
+}

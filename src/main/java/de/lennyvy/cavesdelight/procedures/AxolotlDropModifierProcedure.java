@@ -71,6 +71,16 @@ public class AxolotlDropModifierProcedure {
 						_level.addFreshEntity(entityToSpawn);
 					}
 				}
+				ham = new ItemStack(CavesdelightModItems.AXOLOTL_HIDE.get()).copy();
+				random = Mth.nextDouble(RandomSource.create(), 0, 1);
+				if (entity instanceof net.minecraft.world.entity.animal.axolotl.Axolotl _axl) {
+					ham.set(net.minecraft.core.component.DataComponents.CUSTOM_MODEL_DATA, new net.minecraft.world.item.component.CustomModelData(_axl.getVariant().getId()));
+				}
+				if (world instanceof ServerLevel _level) {
+					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, ham);
+					entityToSpawn.setPickUpDelay(10);
+					_level.addFreshEntity(entityToSpawn);
+				}
 			}
 		}
 	}

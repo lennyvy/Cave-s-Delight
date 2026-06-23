@@ -1,0 +1,33 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 3,
+  "container": {
+    "id": "minecraft:bowl"
+  },
+  "ingredients": [
+    {
+      "item": "cavesdelight:raw_stuffed_axolotl"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "farmersdelight:tomato"
+    },
+    {
+      "item": "farmersdelight:onion"
+    },
+    {
+      "item": "cavesdelight:shimmering_mushroom_slice"
+    },
+    {
+      "item": "minecraft:glow_berries"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "id": "cavesdelight:cooked_stuffed_axolotl",
+    "count": 1
+  }
+}

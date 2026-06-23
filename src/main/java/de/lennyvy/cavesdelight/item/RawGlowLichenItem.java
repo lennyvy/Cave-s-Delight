@@ -20,7 +20,7 @@ import java.util.List;
 public class RawGlowLichenItem extends Item {
 	public RawGlowLichenItem() {
 		super(new Item.Properties().food((new FoodProperties.Builder()).nutrition(2).saturationModifier(0.2f)
-			.effect(() -> new MobEffectInstance(MobEffects.GLOWING, 80, 0), 1.0f).alwaysEdible().build()));
+			.effect(() -> new MobEffectInstance(MobEffects.GLOWING, 80, 0), 1.0f).build()));
 	}
 
 	 @Override

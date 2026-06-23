@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "cavesdelight:jello"
+    },
+    {
+      "item": "minecraft:heart_of_the_sea"
+    }
+  ],
+  "result": {
+    "id": "cavesdelight:slime_jello_blue",
+    "count": 1
+  }
+}

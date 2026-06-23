@@ -1,10 +1,25 @@
 {
   "type": "farmersdelight:cooking",
-  "cookingtime": 110,
-  "experience": 0.3,
+  "cookingtime": 100,
+  "experience": 2,
+  "container": {
+    "id": "minecraft:bowl"
+  },
   "ingredients": [
     {
-      "item": "cavesdelight:raw_axolotl_ham"
+      "item": "cavesdelight:raw_axolotl_slice"
+    },
+    {
+      "item": "cavesdelight:axolotl_hide"
+    },
+    {
+      "item": "cavesdelight:raw_axolotl_slice"
+    },
+    {
+      "item": "cavesdelight:amethyst_powder"
+    },
+    {
+      "item": "cavesdelight:hyacinth_flower_petals"
     },
     {
       "item": "cavesdelight:salt"

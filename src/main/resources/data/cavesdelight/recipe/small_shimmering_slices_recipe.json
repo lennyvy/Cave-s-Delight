@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "cavesdelight:shimmering_mushroom_slice"
+    }
+  ],
+  "result": [
+		{
+		"item": {
+			"count": 2,
+			"id": "cavesdelight:small_shimmering_mushroom_slice"
+			}
+		}
+	],
+	"tool": [
+    {
+      "type": "farmersdelight:item_ability",
+      "action": "knife_dig"
+    },
+    {
+      "tag": "c:tools/knife"
+    }
+  ]
+}

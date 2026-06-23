@@ -1,0 +1,22 @@
+{
+  "type": "crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+  	{
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "cavesdelight:cooked_axolotl_slice"
+    },
+    {
+      "item": "farmersdelight:cabbage_leaf"
+    },
+    {
+      "item": "farmersdelight:tomato"
+    }
+  ],
+  "result": {
+    "id": "cavesdelight:axolotl_wrap",
+    "count": 1
+  }
+}

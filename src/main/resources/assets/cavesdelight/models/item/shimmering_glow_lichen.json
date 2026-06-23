@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "cavesdelight:item/shimmering_glow_lichen"
+  }
+}

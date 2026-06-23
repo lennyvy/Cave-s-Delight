@@ -28,34 +28,28 @@ public class RawStuffedAxolotlBlock extends HorizontalDirectionalBlock {
     public static final IntegerProperty COLOR = IntegerProperty.create("color", 0, 4);
     public static final MapCodec<RawStuffedAxolotlBlock> CODEC = simpleCodec(RawStuffedAxolotlBlock::new);
 
-    // Tray (fix, da quadratisch)
     private static final VoxelShape TRAY = Block.box(1, 0, 1, 15, 2, 15);
 
-    // Körper + Kopf für Norden (Standard)
     private static final VoxelShape BODY_NORTH = Shapes.or(
-        Block.box(4, 1, 4, 12, 5, 14),    // Körper
-        Block.box(4, 1.5, 1, 12, 5.5, 6)  // Kopf
+        Block.box(4, 1, 4, 12, 5, 14),
+        Block.box(4, 1.5, 1, 12, 5.5, 6)
     );
 
-    // Körper + Kopf für Osten
     private static final VoxelShape BODY_EAST = Shapes.or(
         Block.box(2, 1, 4, 12, 5, 12),
         Block.box(10, 1.5, 4, 15, 5.5, 12)
     );
 
-    // Körper + Kopf für Süden
     private static final VoxelShape BODY_SOUTH = Shapes.or(
         Block.box(4, 1, 2, 12, 5, 12),
         Block.box(4, 1.5, 10, 12, 5.5, 15)
     );
 
-    // Körper + Kopf für Westen
     private static final VoxelShape BODY_WEST = Shapes.or(
         Block.box(4, 1, 4, 14, 5, 12),
         Block.box(1, 1.5, 4, 6, 5.5, 12)
     );
 
-    // Kombinierte Shapes (Tray + rotierter Körper)
     private static final VoxelShape SHAPE_NORTH = Shapes.or(TRAY, BODY_NORTH);
     private static final VoxelShape SHAPE_EAST = Shapes.or(TRAY, BODY_EAST);
     private static final VoxelShape SHAPE_SOUTH = Shapes.or(TRAY, BODY_SOUTH);

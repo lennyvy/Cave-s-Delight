@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=north,color=0": { "model": "cavesdelight:block/cooked_stuffed_axolotl_stage0_0", "y": 0 },
+    "facing=east,color=0":  { "model": "cavesdelight:block/cooked_stuffed_axolotl_stage0_0", "y": 90 },
+    "facing=south,color=0": { "model": "cavesdelight:block/cooked_stuffed_axolotl_stage0_0", "y": 180 },
+    "facing=west,color=0":  { "model": "cavesdelight:block/cooked_stuffed_axolotl_stage0_0", "y": 270 },
+    
+    "facing=north,color=1": { "model": "cavesdelight:block/cooked_stuffed_axolotl_stage0_1", "y": 0 },
+    "facing=east,color=1":  { "model": "cavesdelight:block/cooked_stuffed_axolotl_stage0_1", "y": 90 },
+    "facing=south,color=1": { "model": "cavesdelight:block/cooked_stuffed_axolotl_stage0_1", "y": 180 },
+    "facing=west,color=1":  { "model": "cavesdelight:block/cooked_stuffed_axolotl_stage0_1", "y": 270 },
+    
+    "facing=north,color=2": { "model": "cavesdelight:block/cooked_stuffed_axolotl_stage0_2", "y": 0 },
+    "facing=east,color=2":  { "model": "cavesdelight:block/cooked_stuffed_axolotl_stage0_2", "y": 90 },
+    "facing=south,color=2": { "model": "cavesdelight:block/cooked_stuffed_axolotl_stage0_2", "y": 180 },
+    "facing=west,color=2":  { "model": "cavesdelight:block/cooked_stuffed_axolotl_stage0_2", "y": 270 },
+    
+    "facing=north,color=3": { "model": "cavesdelight:block/cooked_stuffed_axolotl_stage0_3", "y": 0 },
+    "facing=east,color=3":  { "model": "cavesdelight:block/cooked_stuffed_axolotl_stage0_3", "y": 90 },
+    "facing=south,color=3": { "model": "cavesdelight:block/cooked_stuffed_axolotl_stage0_3", "y": 180 },
+    "facing=west,color=3":  { "model": "cavesdelight:block/cooked_stuffed_axolotl_stage0_3", "y": 270 },
+    
+    "facing=north,color=4": { "model": "cavesdelight:block/cooked_stuffed_axolotl_stage0_4", "y": 0 },
+    "facing=east,color=4":  { "model": "cavesdelight:block/cooked_stuffed_axolotl_stage0_4", "y": 90 },
+    "facing=south,color=4": { "model": "cavesdelight:block/cooked_stuffed_axolotl_stage0_4", "y": 180 },
+    "facing=west,color=4":  { "model": "cavesdelight:block/cooked_stuffed_axolotl_stage0_4", "y": 270 }
+  }
+}

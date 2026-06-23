@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "minecraft:wheat_seeds"
+    },
+    {
+      "item": "minecraft:pumpkin_seeds"
+    }
+  ],
+  "result": {
+    "id": "cavesdelight:burger_bun",
+    "count": 2
+  }
+}
