@@ -28,11 +28,7 @@ import java.util.Comparator;
 import it.unimi.dsi.fastutil.ints.IntObjectPair;
 import it.unimi.dsi.fastutil.ints.IntObjectImmutablePair;
 
-import de.lennyvy.cavesdelight.init.CavesdelightModTabs;
-import de.lennyvy.cavesdelight.init.CavesdelightModPotions;
-import de.lennyvy.cavesdelight.init.CavesdelightModMobEffects;
-import de.lennyvy.cavesdelight.init.CavesdelightModItems;
-import de.lennyvy.cavesdelight.init.CavesdelightModBlocks;
+import de.lennyvy.cavesdelight.init.*;
 
 @Mod("cavesdelight")
 public class CavesdelightMod {
@@ -46,10 +42,12 @@ public class CavesdelightMod {
 		modEventBus.addListener(this::registerNetworking);
 		CavesdelightModBlocks.REGISTRY.register(modEventBus);
 		CavesdelightModItems.REGISTRY.register(modEventBus);
+		CavesdelightModEntities.REGISTRY.register(modEventBus);
 		CavesdelightModTabs.REGISTRY.register(modEventBus);
 		CavesdelightModPotions.REGISTRY.register(modEventBus);
 		CavesdelightModMobEffects.REGISTRY.register(modEventBus);
 		// Start of user code block mod init
+		CavesdelightModBlocks.BLOCKS.register(modEventBus);
 		// End of user code block mod init
 	}
 

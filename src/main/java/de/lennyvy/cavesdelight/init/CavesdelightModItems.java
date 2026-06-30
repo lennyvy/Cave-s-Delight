@@ -6,8 +6,10 @@ package de.lennyvy.cavesdelight.init;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.common.DeferredSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.item.ItemNameBlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
@@ -68,6 +70,20 @@ public class CavesdelightModItems {
 	public static final DeferredItem<Item> DOUBLE_SPIDER_BURGER;
 	public static final DeferredItem<Item> STUFFED_AXOLOTL;
 	public static final DeferredItem<Item> COTTON_CANDY;
+	public static final DeferredItem<Item> SPIDER_SILK;
+	public static final DeferredItem<Item> SPIDER_PATTY;
+	public static final DeferredItem<Item> SPIDER_CHOPS;
+	public static final DeferredItem<Item> MINCED_SPIDER_MEAT;
+	public static final DeferredItem<Item> SPIDER_MEAT_BURGER;
+	public static final DeferredItem<Item> DOUBLE_SPIDER_MEAT_BURGER;
+	public static final DeferredItem<Item> LEEK;
+	public static final DeferredItem<Item> SPIDER_STEW;
+	public static final DeferredItem<Item> CHOPPED_LEEK;
+	public static final DeferredItem<Item> LEEK_SOUP;
+	public static final DeferredItem<Item> WILD_LEEK_PLANT;
+	public static final DeferredItem<Item> DEEP_COAL_GOLEM_SPAWN_EGG;
+	public static final DeferredItem<Item> SPIDER_WRAP;
+	public static final DeferredItem<Item> DEEP_COAL_WRAP;
 	static {
 		CHESS_FLOWER = block(CavesdelightModBlocks.CHESS_FLOWER);
 		CHESS_FLOWER_SOUP = REGISTRY.register("chess_flower_soup", ChessFlowerSoupItem::new);
@@ -121,10 +137,25 @@ public class CavesdelightModItems {
 		DOUBLE_SPIDER_BURGER = REGISTRY.register("double_spider_burger", DoubleSpiderBurgerItem::new);
 		STUFFED_AXOLOTL = REGISTRY.register("stuffed_axolotl", StuffedAxolotlItem::new);
 		COTTON_CANDY = REGISTRY.register("cotton_candy", CottonCandyItem::new);
+		SPIDER_SILK = REGISTRY.register("spider_silk", SpiderSilkItem::new);
+		SPIDER_PATTY = REGISTRY.register("spider_patty", SpiderPattyItem::new);
+		SPIDER_CHOPS = REGISTRY.register("spider_chops", SpiderChopsItem::new);
+		MINCED_SPIDER_MEAT = REGISTRY.register("minced_spider_meat", MincedSpiderMeatItem::new);
+		SPIDER_MEAT_BURGER = REGISTRY.register("spider_meat_burger", SpiderMeatBurgerItem::new);
+		DOUBLE_SPIDER_MEAT_BURGER = REGISTRY.register("double_spider_meat_burger", DoubleSpiderMeatBurgerItem::new);
+		LEEK = REGISTRY.register("leek", LeekItem::new);
+		SPIDER_STEW = REGISTRY.register("spider_stew", SpiderStewItem::new);
+		CHOPPED_LEEK = REGISTRY.register("chopped_leek", ChoppedLeekItem::new);
+		LEEK_SOUP = REGISTRY.register("leek_soup", LeekSoupItem::new);
+		WILD_LEEK_PLANT = block(CavesdelightModBlocks.WILD_LEEK_PLANT);
+		DEEP_COAL_GOLEM_SPAWN_EGG = REGISTRY.register("deep_coal_golem_spawn_egg", () -> new DeferredSpawnEggItem(CavesdelightModEntities.DEEP_COAL_GOLEM, -1, -1, new Item.Properties()));
+		SPIDER_WRAP = REGISTRY.register("spider_wrap", SpiderWrapItem::new);
+		DEEP_COAL_WRAP = REGISTRY.register("deep_coal_wrap", DeepCoalWrapItem::new);
 	}
 	// Start of user code block custom items
 	public static final DeferredItem<Item> RAW_STUFFED_AXOLOTL = REGISTRY.register("raw_stuffed_axolotl", () -> new RawStuffedAxolotlItem(CavesdelightModBlocks.RAW_STUFFED_AXOLOTL.get(), new Item.Properties()));
 	public static final DeferredItem<Item> COOKED_STUFFED_AXOLOTL = REGISTRY.register("cooked_stuffed_axolotl", () -> new CookedStuffedAxolotlItem(CavesdelightModBlocks.COOKED_STUFFED_AXOLOTL.get(), new Item.Properties()));
+	public static final DeferredItem<Item> LEEK_SEEDS = REGISTRY.register("leek_seeds", () -> new ItemNameBlockItem(CavesdelightModBlocks.LEEK_CROP.get(), new Item.Properties()));
 
 	// End of user code block custom items
 	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block) {

@@ -39,15 +39,17 @@ public class SpiderDropModificationProcedureProcedure {
 	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z, Entity entity, Entity sourceentity) {
 		if (entity == null || sourceentity == null)
 			return;
-		double random = 0;
 		Entity player = null;
 		Entity spider = null;
+		double random = 0;
+		double random2 = 0;
 		ItemStack spiderleg = ItemStack.EMPTY;
+		ItemStack spidersilk = ItemStack.EMPTY;
 		spider = entity;
 		player = sourceentity;
 		if (player instanceof Player && (spider instanceof Spider || spider instanceof CaveSpider)) {
 			if ((player instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).is(ItemTags.create(ResourceLocation.parse("farmersdelight:tools/knives")))) {
-				random = Mth.nextDouble(RandomSource.create(), 4, 6);
+				random = Mth.nextDouble(RandomSource.create(), 1, 2);
 				spiderleg = new ItemStack(CavesdelightModItems.SPIDER_LEG.get()).copy();
 				spiderleg.setCount((int) random);
 				if (world instanceof ServerLevel _level) {
@@ -55,6 +57,14 @@ public class SpiderDropModificationProcedureProcedure {
 					entityToSpawn.setPickUpDelay(10);
 					_level.addFreshEntity(entityToSpawn);
 				}
+			}
+			random = Mth.nextDouble(RandomSource.create(), 2, 4);
+			spidersilk = new ItemStack(CavesdelightModItems.SPIDER_SILK.get()).copy();
+			spidersilk.setCount((int) random);
+			if (world instanceof ServerLevel _level) {
+				ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, spidersilk);
+				entityToSpawn.setPickUpDelay(10);
+				_level.addFreshEntity(entityToSpawn);
 			}
 		}
 	}

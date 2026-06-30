@@ -1,0 +1,24 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "id": "minecraft:bowl"
+  },
+  "cookingtime": 150,
+  "experience": 2,
+  "ingredients": [
+    {
+      "item": "cavesdelight:chopped_leek"
+    },
+    {
+      "item": "cavesdelight:salt"
+    },
+    {
+      "item": "minecraft:milk_bucket"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "id": "cavesdelight:leek_soup",
+    "count": 1
+  }
+}

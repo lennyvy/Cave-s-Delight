@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 120,
+  "ingredient": {
+    "item": "cavesdelight:minced_spider_meat"
+  },
+  "result": {
+    "id": "cavesdelight:spider_patty"
+  }
+}

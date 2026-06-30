@@ -1,0 +1,27 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Campfire cooking",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:MincedSpiderMeat"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 140,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "campfireCookingInputStack": {
+      "value": "CUSTOM:MincedSpiderMeat"
+    },
+    "campfireCookingReturnStack": {
+      "value": "CUSTOM:SpiderPatty"
+    },
+    "name": "spider_patty_campfire_recipe",
+    "namespace": "mod"
+  }
+}

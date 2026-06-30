@@ -9,13 +9,9 @@
     "customProperties": {},
     "states": [],
     "animations": [],
-    "name": "Salt",
+    "name": "Dripstone Salt",
     "rarity": "COMMON",
-    "creativeTabs": [
-      {
-        "value": "CUSTOM:CavesDelight"
-      }
-    ],
+    "creativeTabs": [],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 32,

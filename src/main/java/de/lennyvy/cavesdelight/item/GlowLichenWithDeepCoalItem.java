@@ -20,8 +20,8 @@ public class GlowLichenWithDeepCoalItem extends Item {
 
     public GlowLichenWithDeepCoalItem() {
         super(new Properties().food(new FoodProperties.Builder().nutrition(12).saturationModifier(1f)
-            .effect(() -> new MobEffectInstance(MobEffects.GLOWING, 1800, 0), 1.0f)
-            .effect(() -> new MobEffectInstance(MobEffects.NIGHT_VISION, 3600, 0), 1.0f).build()));
+            .effect(() -> new MobEffectInstance(MobEffects.GLOWING, 900, 0), 1.0f)
+            .effect(() -> new MobEffectInstance(MobEffects.NIGHT_VISION, 1800, 0), 1.0f).build()));
     }
 
     @Override

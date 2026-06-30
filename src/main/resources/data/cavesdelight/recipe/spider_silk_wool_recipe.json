@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "cavesdelight:spider_silk"
+    }
+  },
+  "result": {
+    "id": "minecraft:white_wool",
+    "count": 1
+  }
+}

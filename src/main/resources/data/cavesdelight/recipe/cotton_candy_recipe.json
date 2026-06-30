@@ -10,7 +10,10 @@
       "item": "minecraft:string"
     },
     {
-      "item": "minecraft:string"
+      "item": "cavesdelight:spider_silk"
+    },
+    {
+      "item": "cavesdelight:spider_silk"
     },
     {
       "item": "minecraft:sugar"
@@ -21,4 +24,4 @@
     "id": "cavesdelight:cotton_candy",
     "count": 1
   }
-}
+}

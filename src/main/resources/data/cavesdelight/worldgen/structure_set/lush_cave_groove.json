@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "cavesdelight:lush_cave_groove",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 3,
+    "separation": 1,
+    "salt": 2139833162
+  }
+}

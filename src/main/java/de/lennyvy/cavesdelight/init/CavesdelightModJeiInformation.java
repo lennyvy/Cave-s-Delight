@@ -28,5 +28,7 @@ public class CavesdelightModJeiInformation implements IModPlugin {
 		registration.addIngredientInfo(List.of(new ItemStack(CavesdelightModItems.DEEP_COAL.get()), new ItemStack(CavesdelightModBlocks.DEEP_COAL_ORE.get())), VanillaTypes.ITEM_STACK, Component.translatable("jei.cavesdelight.deep_coal_info"));
 		registration.addIngredientInfo(List.of(new ItemStack(CavesdelightModBlocks.SHIMMERING_MUSHROOM.get()), new ItemStack(CavesdelightModBlocks.SMALL_SHIMMERING_MUSHROOMS.get())), VanillaTypes.ITEM_STACK,
 				Component.translatable("jei.cavesdelight.shimmering_mushroom_info"));
+		registration.addIngredientInfo(List.of(new ItemStack(CavesdelightModItems.STUFFED_AXOLOTL.get())), VanillaTypes.ITEM_STACK, Component.translatable("jei.cavesdelight.stuffed_axolotl_info"));
+		registration.addIngredientInfo(List.of(new ItemStack(CavesdelightModItems.SPIDER_SILK.get())), VanillaTypes.ITEM_STACK, Component.translatable("jei.cavesdelight.spider_silk_info"));
 	}
 }

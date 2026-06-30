@@ -21,6 +21,9 @@ public class CavesdelightModTabs {
 				tabData.accept(CavesdelightModItems.CHESS_FLOWER_PETALS.get());
 				tabData.accept(CavesdelightModBlocks.HYACINTH_FLOWER.get().asItem());
 				tabData.accept(CavesdelightModItems.HYACINTH_FLOWER_PETALS.get());
+				tabData.accept(CavesdelightModItems.LEEK_SEEDS.get());
+				tabData.accept(CavesdelightModItems.LEEK.get());
+				tabData.accept(CavesdelightModItems.CHOPPED_LEEK.get());
 				tabData.accept(CavesdelightModItems.RAW_GLOW_LICHEN.get());
 				tabData.accept(CavesdelightModItems.COOKED_GLOW_LICHEN.get());
 				tabData.accept(CavesdelightModItems.AXOLOTL_HIDE.get());
@@ -28,7 +31,11 @@ public class CavesdelightModTabs {
 				tabData.accept(CavesdelightModItems.COOKED_AXOLOTL_HAM.get());
 				tabData.accept(CavesdelightModItems.RAW_AXOLOTL_SLICE.get());
 				tabData.accept(CavesdelightModItems.COOKED_AXOLOTL_SLICE.get());
+				tabData.accept(CavesdelightModItems.SPIDER_SILK.get());
 				tabData.accept(CavesdelightModItems.SPIDER_LEG.get());
+				tabData.accept(CavesdelightModItems.SPIDER_CHOPS.get());
+				tabData.accept(CavesdelightModItems.MINCED_SPIDER_MEAT.get());
+				tabData.accept(CavesdelightModItems.SPIDER_PATTY.get());
 				tabData.accept(CavesdelightModItems.SLIME_JELLO_BASE.get());
 				tabData.accept(CavesdelightModItems.SALT.get());
 				tabData.accept(CavesdelightModItems.AMETHYST_POWDER.get());
@@ -48,10 +55,14 @@ public class CavesdelightModTabs {
 				tabData.accept(CavesdelightModItems.DOUBLE_AXOLOTL_BURGER.get());
 				tabData.accept(CavesdelightModItems.SPIDER_BURGER.get());
 				tabData.accept(CavesdelightModItems.DOUBLE_SPIDER_BURGER.get());
+				tabData.accept(CavesdelightModItems.SPIDER_MEAT_BURGER.get());
+				tabData.accept(CavesdelightModItems.DOUBLE_SPIDER_MEAT_BURGER.get());
 				tabData.accept(CavesdelightModItems.INFUSED_MUSHROOM_BURGER.get());
 				tabData.accept(CavesdelightModItems.INFUSED_DOUBLE_MUSHROOM_BURGER.get());
+				tabData.accept(CavesdelightModItems.DEEP_COAL_WRAP.get());
 				tabData.accept(CavesdelightModItems.INFUSED_MUSHROOM_WRAP.get());
 				tabData.accept(CavesdelightModItems.AXOLOTL_WRAP.get());
+				tabData.accept(CavesdelightModItems.SPIDER_WRAP.get());
 				tabData.accept(CavesdelightModItems.GLAZED_AXOLOTL_HAM.get());
 				tabData.accept(CavesdelightModItems.RAW_STUFFED_AXOLOTL.get());
 				tabData.accept(CavesdelightModItems.COOKED_STUFFED_AXOLOTL.get());
@@ -68,8 +79,11 @@ public class CavesdelightModTabs {
 				tabData.accept(CavesdelightModItems.SLIME_JELLO_BROWN.get());
 				tabData.accept(CavesdelightModItems.SLIME_JELLO_WHITE.get());
 				tabData.accept(CavesdelightModItems.SLIME_JELLO_BLACK.get());
+				tabData.accept(CavesdelightModItems.SPIDER_STEW.get());
 				tabData.accept(CavesdelightModItems.GLOW_BERRY_SAUCE.get());
+				tabData.accept(CavesdelightModItems.LEEK_SOUP.get());
 				tabData.accept(CavesdelightModItems.CHESS_FLOWER_SOUP.get());
 				tabData.accept(CavesdelightModItems.HYACINTH_FLOWER_SOUP.get());
+				tabData.accept(CavesdelightModItems.DEEP_COAL_GOLEM_SPAWN_EGG.get());
 			}).build());
 }

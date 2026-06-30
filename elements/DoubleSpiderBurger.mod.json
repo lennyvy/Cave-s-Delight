@@ -9,7 +9,7 @@
     "customProperties": {},
     "states": [],
     "animations": [],
-    "name": "Spider Burger",
+    "name": "Double Spider Burger",
     "rarity": "COMMON",
     "creativeTabs": [],
     "stackSize": 64,
@@ -48,8 +48,8 @@
     },
     "projectileDisableAmmoCheck": false,
     "isFood": true,
-    "nutritionalValue": 17,
-    "saturation": 0.9,
+    "nutritionalValue": 13,
+    "saturation": 0.7,
     "eatResultItem": {
       "value": ""
     },

@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "birch_forest",
+    "forest",
+    "plains"
+  ],
+  "features": "cavesdelight:wild_leek_plant_feature",
+  "step": "vegetal_decoration"
+}

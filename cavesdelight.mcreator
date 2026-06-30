@@ -2048,6 +2048,553 @@
         ]
       },
       "path": "~/recipes/cooking_pot"
+    },
+    {
+      "name": "SpiderSilk",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spider_silk",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cavesdelight/models/item/spider_silk.json",
+          "src/main/java/de/lennyvy/cavesdelight/item/SpiderSilkItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "SpiderSilkWoolRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spider_silk_wool_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/spider_silk_wool_recipe.json",
+          "src/main/resources/data/cavesdelight/advancement/recipes/spider_silk_wool_recipe.json"
+        ]
+      },
+      "path": "~/recipes/craftingtable"
+    },
+    {
+      "name": "SpiderPatty",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spider_patty",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/item/SpiderPattyItem.java",
+          "src/main/resources/assets/cavesdelight/models/item/spider_patty.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "SpiderChops",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spider_chops",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/item/SpiderChopsItem.java",
+          "src/main/resources/assets/cavesdelight/models/item/spider_chops.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "MincedSpiderMeat",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minced_spider_meat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cavesdelight/models/item/minced_spider_meat.json",
+          "src/main/java/de/lennyvy/cavesdelight/item/MincedSpiderMeatItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "SpiderChopsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spider_chops_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/spider_chops_recipe.json",
+          "src/main/resources/data/cavesdelight/advancement/recipes/spider_chops_recipe.json"
+        ]
+      },
+      "path": "~/recipes/cutting"
+    },
+    {
+      "name": "MincedSpiderMeatRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "minced_spider_meat_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/advancement/recipes/minced_spider_meat_recipe.json",
+          "src/main/resources/data/cavesdelight/recipe/minced_spider_meat_recipe.json"
+        ]
+      },
+      "path": "~/recipes/cutting"
+    },
+    {
+      "name": "SpiderPattyFurnace",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spider_patty_furnace",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/advancement/recipes/spider_patty_furnace.json",
+          "src/main/resources/data/cavesdelight/recipe/spider_patty_furnace.json"
+        ]
+      },
+      "path": "~/recipes/furnace"
+    },
+    {
+      "name": "SpiderPattySmoker",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spider_patty_smoker",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/spider_patty_smoker.json",
+          "src/main/resources/data/cavesdelight/advancement/recipes/spider_patty_smoker.json"
+        ]
+      },
+      "path": "~/recipes/furnace"
+    },
+    {
+      "name": "SpiderPattyCampfireRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spider_patty_campfire_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/spider_patty_campfire_recipe.json",
+          "src/main/resources/data/cavesdelight/advancement/recipes/spider_patty_campfire_recipe.json"
+        ]
+      },
+      "path": "~/recipes/campfire"
+    },
+    {
+      "name": "SpiderMeatBurger",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spider_meat_burger",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cavesdelight/models/item/spider_meat_burger.json",
+          "src/main/java/de/lennyvy/cavesdelight/item/SpiderMeatBurgerItem.java"
+        ]
+      },
+      "path": "~/items/effectfood"
+    },
+    {
+      "name": "DoubleSpiderMeatBurger",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "double_spider_meat_burger",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/item/DoubleSpiderMeatBurgerItem.java",
+          "src/main/resources/assets/cavesdelight/models/item/double_spider_meat_burger.json"
+        ]
+      },
+      "path": "~/items/effectfood"
+    },
+    {
+      "name": "SpiderMeatBurgerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spider_meat_burger_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/spider_meat_burger_recipe.json"
+        ]
+      },
+      "path": "~/recipes/craftingtable"
+    },
+    {
+      "name": "DoubleSpiderMeatBurgerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "double_spider_meat_burger_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/double_spider_meat_burger_recipe.json"
+        ]
+      },
+      "path": "~/recipes/craftingtable"
+    },
+    {
+      "name": "StuffedAxolotlInfo",
+      "type": "jeiinformation",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stuffed_axolotl_info",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/JEI"
+    },
+    {
+      "name": "SpiderSilkInfo",
+      "type": "jeiinformation",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spider_silk_info",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/JEI"
+    },
+    {
+      "name": "SlimeJelloBlackBaseRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_jello_black_base_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/slime_jello_black_base_recipe.json"
+        ]
+      },
+      "path": "~/recipes/craftingtable"
+    },
+    {
+      "name": "SlimeJelloBlueBaseRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_jello_blue_base_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/slime_jello_blue_base_recipe.json"
+        ]
+      },
+      "path": "~/recipes/craftingtable"
+    },
+    {
+      "name": "SlimeJelloBrownBaseRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_jello_brown_base_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/slime_jello_brown_base_recipe.json"
+        ]
+      },
+      "path": "~/recipes/craftingtable"
+    },
+    {
+      "name": "SlimeJelloGreenBaseRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_jello_green_base_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/slime_jello_green_base_recipe.json"
+        ]
+      },
+      "path": "~/recipes/craftingtable"
+    },
+    {
+      "name": "SlimeJelloOrangeBaseRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_jello_orange_base_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/slime_jello_orange_base_recipe.json"
+        ]
+      },
+      "path": "~/recipes/craftingtable"
+    },
+    {
+      "name": "SlimeJelloPinkBaseRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_jello_pink_base_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/slime_jello_pink_base_recipe.json"
+        ]
+      },
+      "path": "~/recipes/craftingtable"
+    },
+    {
+      "name": "SlimeJelloPurpleBaseRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_jello_purple_base_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/slime_jello_purple_base_recipe.json"
+        ]
+      },
+      "path": "~/recipes/craftingtable"
+    },
+    {
+      "name": "SlimeJelloRedBaseRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_jello_red_base_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/slime_jello_red_base_recipe.json"
+        ]
+      },
+      "path": "~/recipes/craftingtable"
+    },
+    {
+      "name": "SlimeJelloYellowBaseRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_jello_yellow_base_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/slime_jello_yellow_base_recipe.json"
+        ]
+      },
+      "path": "~/recipes/craftingtable"
+    },
+    {
+      "name": "Leek",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leek",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cavesdelight/models/item/leek.json",
+          "src/main/java/de/lennyvy/cavesdelight/item/LeekItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "SpiderStew",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spider_stew",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/item/SpiderStewItem.java",
+          "src/main/resources/assets/cavesdelight/models/item/spider_stew.json"
+        ]
+      },
+      "path": "~/items/effectfood"
+    },
+    {
+      "name": "ChoppedLeek",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chopped_leek",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/item/ChoppedLeekItem.java",
+          "src/main/resources/assets/cavesdelight/models/item/chopped_leek.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "ChoppedLeekRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "chopped_leek_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/advancement/recipes/chopped_leek_recipe.json",
+          "src/main/resources/data/cavesdelight/recipe/chopped_leek_recipe.json"
+        ]
+      },
+      "path": "~/recipes/cutting"
+    },
+    {
+      "name": "LeekSoupRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "leek_soup_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/advancement/recipes/leek_soup_recipe.json",
+          "src/main/resources/data/cavesdelight/recipe/leek_soup_recipe.json"
+        ]
+      },
+      "path": "~/recipes/cooking_pot"
+    },
+    {
+      "name": "LeekSoup",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "leek_soup",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/item/LeekSoupItem.java",
+          "src/main/resources/assets/cavesdelight/models/item/leek_soup.json"
+        ]
+      },
+      "path": "~/items/effectfood"
+    },
+    {
+      "name": "SpiderStewRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spider_stew_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/advancement/recipes/spider_stew_recipe.json",
+          "src/main/resources/data/cavesdelight/recipe/spider_stew_recipe.json"
+        ]
+      },
+      "path": "~/recipes/cooking_pot"
+    },
+    {
+      "name": "WildLeek",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "wild_leek",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/loot_table/blocks/wild_leek.json"
+        ]
+      },
+      "path": "~/loot_tables"
+    },
+    {
+      "name": "WildLeekPlant",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wild_leek_plant",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cavesdelight/models/item/wild_leek_plant.json",
+          "src/main/resources/assets/cavesdelight/models/block/wild_leek_plant.json",
+          "src/main/resources/assets/cavesdelight/blockstates/wild_leek_plant.json",
+          "src/main/java/de/lennyvy/cavesdelight/block/WildLeekPlantBlock.java"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "WildLeekPlantFeature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wild_leek_plant_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/worldgen/configured_feature/wild_leek_plant_feature.json",
+          "src/main/resources/data/cavesdelight/neoforge/biome_modifier/wild_leek_plant_feature_biome_modifier.json",
+          "src/main/resources/data/cavesdelight/worldgen/placed_feature/wild_leek_plant_feature.json"
+        ]
+      },
+      "path": "~/misc"
+    },
+    {
+      "name": "DeepCoalGolemLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_coal_golem_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/loot_table/entities/deep_coal_golem.json"
+        ]
+      },
+      "path": "~/loot_tables"
+    },
+    {
+      "name": "DeepCoalGolem",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "deep_coal_golem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cavesdelight/models/item/deep_coal_golem_spawn_egg.json",
+          "src/main/resources/data/cavesdelight/neoforge/biome_modifier/deep_coal_golem_biome_modifier.json",
+          "src/main/java/de/lennyvy/cavesdelight/entity/DeepCoalGolemEntity.java",
+          "src/main/java/de/lennyvy/cavesdelight/client/renderer/DeepCoalGolemRenderer.java"
+        ]
+      },
+      "path": "~/entities"
+    },
+    {
+      "name": "LushCaveGroove",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lush_cave_groove",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/worldgen/structure/lush_cave_groove.json",
+          "src/main/resources/data/cavesdelight/worldgen/structure_set/lush_cave_groove.json",
+          "src/main/resources/data/cavesdelight/worldgen/template_pool/lush_cave_groove.json"
+        ]
+      },
+      "path": "~/structures"
+    },
+    {
+      "name": "SpiderWrap",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spider_wrap",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cavesdelight/models/item/spider_wrap.json",
+          "src/main/java/de/lennyvy/cavesdelight/item/SpiderWrapItem.java"
+        ]
+      },
+      "path": "~/items/effectfood"
+    },
+    {
+      "name": "DeepCoalWrap",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "deep_coal_wrap",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/item/DeepCoalWrapItem.java",
+          "src/main/resources/assets/cavesdelight/models/item/deep_coal_wrap.json"
+        ]
+      },
+      "path": "~/items/effectfood"
     }
   ],
   "variable_elements": [],
@@ -2078,8 +2625,8 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "block.cavesdelight.chess_flower": "Chess Flower",
-      "item.cavesdelight.chess_flower_soup": "Chess Flower Soup",
+      "block.cavesdelight.chess_flower": "Chessflower",
+      "item.cavesdelight.chess_flower_soup": "Chessflower Soup",
       "item.cavesdelight.raw_glow_lichen": "Raw Glow Lichen",
       "item.cavesdelight.cooked_glow_lichen": "Cooked Glow Lichen",
       "item.cavesdelight.raw_axolotl_ham": "Raw Axolotl Ham",
@@ -2087,9 +2634,9 @@
       "jei.cavesdelight.axolotl_ham_info": "If you want to gather this resoure you might need something lighter then a sword...",
       "jei.cavesdelight.chess_flower_info": "These flowers typically are found in lush and flourishing caves. If you need more flowers, using a fertilizer might be usefull",
       "jei.cavesdelight.glow_lichen_info": "Try to cut down glow lichen naturally found in some caves with a knife.",
-      "item.cavesdelight.salt": "Salt",
+      "item.cavesdelight.salt": "Dripstone Salt",
       "item.cavesdelight.amethyst_powder": "Amethyst Powder",
-      "item.cavesdelight.chess_flower_petals": "Chess Flower Petals",
+      "item.cavesdelight.chess_flower_petals": "Chessflower Petals",
       "item.cavesdelight.raw_axolotl_slice": "Raw Axolotl Slice",
       "item.cavesdelight.cooked_axolotl_slice": "Cooked Axolotl Slice",
       "block.cavesdelight.shimmering_mushroom": "Shimmering Mushroom",
@@ -2102,8 +2649,8 @@
       "item.cavesdelight.glow_lichen_with_deep_coal": "Glow Lichen With Deep Coal",
       "item.cavesdelight.shimmering_mushroom_slice": "Shimmering Mushroom Slice",
       "item.cavesdelight.small_shimmering_mushroom_slice": "Small Shimmering Mushroom Slice",
-      "block.cavesdelight.hyacinth_flower": "Hyacinth Flower",
-      "item.cavesdelight.hyacinth_flower_petals": "Hyacinth Flower Petals",
+      "block.cavesdelight.hyacinth_flower": "Hyacinth",
+      "item.cavesdelight.hyacinth_flower_petals": "Hyacinth Petals",
       "block.cavesdelight.raw_stuffed_axolotl": "Raw Stuffed Axolotl",
       "item.cavesdelight.infused_mushroom_wrap": "Infused Mushroom Wrap",
       "item.cavesdelight.deep_coal_cereals": "Deep Coal Cereals",
@@ -2147,11 +2694,30 @@
       "item.cavesdelight.slime_jello_yellow": "Yellow Slime Jello",
       "item.cavesdelight.slime_jello_white": "White Slime Jello",
       "item.cavesdelight.slime_jello_base": "Slime Jello Base",
-      "item.cavesdelight.burger_bun": "Burger Buns",
+      "item.cavesdelight.burger_bun": "Burger Bun",
       "item.cavesdelight.spider_burger": "Spider Burger",
-      "item.cavesdelight.double_spider_burger": "Spider Burger",
-      "item.cavesdelight.stuffed_axolotl": "Stuffed Axolotl",
-      "item.cavesdelight.cotton_candy": "Cobweb Cotton Candy"
+      "item.cavesdelight.double_spider_burger": "Double Spider Burger",
+      "item.cavesdelight.stuffed_axolotl": "Stuffed Axolotl Plate",
+      "item.cavesdelight.cotton_candy": "Cobweb Cotton Candy",
+      "item.cavesdelight.spider_silk": "Spider Silk",
+      "item.cavesdelight.spider_patty": "Spider Patty",
+      "item.cavesdelight.spider_chops": "Spider Chops",
+      "item.cavesdelight.minced_spider_meat": "Minced Spider Meat",
+      "item.cavesdelight.spider_meat_burger": "Spider Meat Burger",
+      "item.cavesdelight.double_spider_meat_burger": "Double Spider Meat Burger",
+      "jei.cavesdelight.stuffed_axolotl_info": "Rightclick a Cooked Stuffed Axolotl with a bowl to gather this dish...",
+      "jei.cavesdelight.spider_silk_info": "Dropped by a spider, just like strings or spider eyes",
+      "item.cavesdelight.leek_seeds": "Leek Seeds",
+      "item.cavesdelight.leek": "Leek",
+      "item.cavesdelight.spider_stew": "Spider Stew",
+      "item.cavesdelight.chopped_leek": "Chopped Leek",
+      "item.cavesdelight.leek_soup": "Leek Soup",
+      "jei.cavesdelight.leek_info": "Wild Leek can be found in the plains, forest and birch forest biomes...",
+      "block.cavesdelight.wild_leek_plant": "Wild Leek",
+      "item.cavesdelight.deep_coal_golem_spawn_egg": "Deep Coal Golem Spawn Egg",
+      "entity.cavesdelight.deep_coal_golem": "Deep Coal Golem",
+      "item.cavesdelight.spider_wrap": "Spider Wrap",
+      "item.cavesdelight.deep_coal_wrap": "Spider Wrap"
     },
     "de_de": {
       "block.cavesdelight.chess_flower": "Schachblume",
@@ -2163,7 +2729,7 @@
       "jei.cavesdelight.axolotl_ham_info": "Wenn du diese Ressource bekommen möchtest, musst du ein Messer benutzen.",
       "jei.cavesdelight.chess_flower_info": "Diese Blumen wachsen nur in den Üppigen Höhlen. Falls du mehr brauchst, benutze Knochenmehl.",
       "jei.cavesdelight.glow_lichen_info": "Versuche mal die Leuchtflechte mit einem Messer abzubauen.",
-      "item.cavesdelight.salt": "Salz",
+      "item.cavesdelight.salt": "Tropfsteinsalz",
       "item.cavesdelight.amethyst_powder": "Gemahlener Amethyst",
       "item.cavesdelight.chess_flower_petals": "Schachblumenblütenblätter",
       "item.cavesdelight.raw_axolotl_slice": "Rohe Axolotlscheibe",
@@ -2190,12 +2756,12 @@
       "item.cavesdelight.axolotl_roll": "Axolotlsushi",
       "item.cavesdelight.hyacinth_flower_soup": "Hyazintensuppe",
       "item.cavesdelight.glow_berry_sauce": "Leuchtbeerensuppe",
-      "item.cavesdelight.burger_buns": "Geschnittenes Burger Brötchen",
+      "item.cavesdelight.burger_buns": "Geschnittenes Burgerbrötchen",
       "item.cavesdelight.axolotl_burger": "Axolotlburger",
-      "item.cavesdelight.double_axolotl_burger": "Doppelpatty Axolotlburger",
-      "item.cavesdelight.infused_mushroom_burger": "Schimmerpilz Burger",
-      "item.cavesdelight.infused_double_mushroom_burger": "Doppelschimmerpilz Burger",
-      "item.cavesdelight.glazed_axolotl_ham": " Glasierter Axolotlschinken",
+      "item.cavesdelight.double_axolotl_burger": "Doppelter Axolotlburger",
+      "item.cavesdelight.infused_mushroom_burger": "Schimmerpilzburger",
+      "item.cavesdelight.infused_double_mushroom_burger": "Doppelter Schimmerpilzburger",
+      "item.cavesdelight.glazed_axolotl_ham": "Glasierter Axolotlschinken",
       "effect.cavesdelight.echo_sight": "Echo Sicht",
       "item.minecraft.splash_potion.effect.echo_sight_potion": "Wurftrank der Echosicht ",
       "item.minecraft.lingering_potion.effect.echo_sight_potion": "Verweilender Trank der Echosicht",
@@ -2216,18 +2782,37 @@
       "item.cavesdelight.slime_jello_black": "Schwarzer Wackelpudding",
       "item.cavesdelight.slime_jello_blue": "Blauer Wackelpudding",
       "item.cavesdelight.slime_jello_brown": "Brauner Wackelpudding",
-      "item.cavesdelight.slime_jello_orange": "Orangener Wackelpudding",
-      "item.cavesdelight.slime_jello_pink": "Pinker Wackelpudding",
-      "item.cavesdelight.slime_jello_purple": "Lila Wackelpudding",
+      "item.cavesdelight.slime_jello_orange": "Oranger Wackelpudding",
+      "item.cavesdelight.slime_jello_pink": "Rosa Wackelpudding",
+      "item.cavesdelight.slime_jello_purple": "Violetter Wackelpudding",
       "item.cavesdelight.slime_jello_red": "Roter Wackelpudding",
       "item.cavesdelight.slime_jello_yellow": "Gelber Wackelpudding",
       "item.cavesdelight.slime_jello_white": "Weißer Wackelpudding",
-      "item.cavesdelight.slime_jello_base": "Wackelpudding Basis",
-      "item.cavesdelight.burger_bun": "Burger Brötchen",
-      "item.cavesdelight.spider_burger": "Spinnenbein Burger",
-      "item.cavesdelight.double_spider_burger": "Doppespinnenbeinburger",
-      "item.cavesdelight.stuffed_axolotl": "Stuffed Axolotl",
-      "item.cavesdelight.cotton_candy": "Cobweb Cotton Candy"
+      "item.cavesdelight.slime_jello_base": "Basis Wackelpudding",
+      "item.cavesdelight.burger_bun": "Burgerbrötchen",
+      "item.cavesdelight.spider_burger": "Spinnenbeinburger",
+      "item.cavesdelight.double_spider_burger": "Doppelter Spinnenbeinburger",
+      "item.cavesdelight.stuffed_axolotl": "Axolotl Teller",
+      "item.cavesdelight.cotton_candy": "Zuckerwatte",
+      "item.cavesdelight.spider_silk": "Spinnenseide",
+      "item.cavesdelight.spider_patty": "Spinnenpatty",
+      "item.cavesdelight.spider_chops": "Spinnen Stücke",
+      "item.cavesdelight.minced_spider_meat": "Gehacktes Spinnenfleisch",
+      "item.cavesdelight.spider_meat_burger": "Spinnenfleisch Burger",
+      "item.cavesdelight.double_spider_meat_burger": "Doppelter Spinnenfleisch Burger",
+      "jei.cavesdelight.stuffed_axolotl_info": "Drücke Rechtsklick auf ein gebratenes gefülltes Axolotl um dieses Gericht zu bekommen... ",
+      "jei.cavesdelight.spider_silk_info": "Wird von Spinnen gedroppt, so wie Spinnenaugen und Fäden auch...",
+      "item.cavesdelight.leek_seeds": "Lauchsamen",
+      "item.cavesdelight.leek": "Lauch",
+      "item.cavesdelight.spider_stew": "Spinneneintopf",
+      "item.cavesdelight.chopped_leek": "Geschnittener Lauch",
+      "item.cavesdelight.leek_soup": "Lauchsuppe",
+      "jei.cavesdelight.leek_info": "Wilder Lauch kann in den \"Ebene\", \"Wald\" und \"Birken Wald\" Biomen gefunden werden...",
+      "block.cavesdelight.wild_leek_plant": "Wilder Lauch",
+      "item.cavesdelight.deep_coal_golem_spawn_egg": "Deep Coal Golem Spawn Egg",
+      "entity.cavesdelight.deep_coal_golem": "Deep Coal Golem",
+      "item.cavesdelight.spider_wrap": "Spider Wrap",
+      "item.cavesdelight.deep_coal_wrap": "Spider Wrap"
     }
   },
   "metadata": {
@@ -2239,8 +2824,11 @@
       "src/main/java/de/lennyvy/cavesdelight/init/CavesdelightModBrewingRecipes.java",
       "src/main/java/de/lennyvy/cavesdelight/init/CavesdelightModBlocks.java",
       "src/main/java/de/lennyvy/cavesdelight/init/CavesdelightModItems.java",
+      "src/main/java/de/lennyvy/cavesdelight/init/CavesdelightModEntities.java",
+      "src/main/java/de/lennyvy/cavesdelight/init/CavesdelightModEntityRenderers.java",
       "src/main/java/de/lennyvy/cavesdelight/CavesdelightMod.java",
       "src/main/resources/pack.mcmeta",
+      "src/main/java/de/lennyvy/cavesdelight/init/CavesdelightModModels.java",
       "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/resources/META-INF/neoforge.mods.toml"
     ]
@@ -2283,6 +2871,10 @@
           {
             "name": "brewing",
             "children": []
+          },
+          {
+            "name": "campfire",
+            "children": []
           }
         ]
       },
@@ -2313,28 +2905,35 @@
       {
         "name": "effects",
         "children": []
+      },
+      {
+        "name": "entities",
+        "children": []
+      },
+      {
+        "name": "structures",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "cavesdelight",
     "modName": " Cave\u0027s Delight",
-    "version": "1.1.0",
+    "version": "1.3.0b-snapshot-0.0.1",
     "description": "FarmersDelight Addon for Cave Focused Content",
     "author": "lennyvy",
-    "websiteURL": "https://discord.gg/RUwGNhn4qS",
-    "license": "MIT License",
+    "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/caves-delights",
+    "license": "PolyForm Shield License 1.0.0",
     "serverSideOnly": false,
-    "requiredMods": [
-      "farmersdelight"
-    ],
+    "modPicture": "cavesdelight",
+    "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [
       "jei"
     ],
     "currentGenerator": "neoforge-1.21.1",
-    "credits": "I made this mod as an addon for Farmers Delight, to bring more culinary worth to the undergrounds",
+    "credits": "Special thanks to my friends helping me out with gathering content ideas!!!",
     "modElementsPackage": "de.lennyvy.cavesdelight"
   },
   "mcreatorVersion": 202600114619

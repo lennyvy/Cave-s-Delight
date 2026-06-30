@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cavesdelight:slime_jello_base"
+    },
+    {
+      "item": "cavesdelight:small_shimmering_mushroom_slice"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "id": "cavesdelight:slime_jello_black",
+    "count": 1
+  }
+}
