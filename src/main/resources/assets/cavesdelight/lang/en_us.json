@@ -18,7 +18,7 @@
   "item.cavesdelight.deep_coal": "Deep Coal",
   "block.cavesdelight.deep_coal_ore": "Deep Coal Ore",
   "item.cavesdelight.deep_coal_crumbs": "Deep Coal Crumbs",
-  "jei.cavesdelight.deep_coal_info": "Deep Coal can be found in the deepest and darkest places. But be careful, there is something listening...",
+  "jei.cavesdelight.deep_coal_info": "Deep Coal ore can be found either in the darkest caves or you might find a small groove in the lush caves where cute little golems are wandering around. Btw i heard their favourite meal is a big slice of a shimmering mushroom",
   "jei.cavesdelight.shimmering_mushroom_info": "These Mushrooms only grow in the darkes caves out there. They belong to one of the few light sources down there",
   "item.cavesdelight.glow_lichen_with_deep_coal": "Glow Lichen With Deep Coal",
   "item.cavesdelight.shimmering_mushroom_slice": "Shimmering Mushroom Slice",
@@ -91,5 +91,9 @@
   "item.cavesdelight.deep_coal_golem_spawn_egg": "Deep Coal Golem Spawn Egg",
   "entity.cavesdelight.deep_coal_golem": "Deep Coal Golem",
   "item.cavesdelight.spider_wrap": "Spider Wrap",
-  "item.cavesdelight.deep_coal_wrap": "Spider Wrap"
+  "item.cavesdelight.deep_coal_wrap": "Deep Coal Wrap",
+  "item.cavesdelight.deep_coal_extract": "Deep Coal Extract",
+  "item.cavesdelight.deep_coal_tea": "Deep Coal Tea",
+  "item.cavesdelight.glow_berry_tea": "Glow Berry Tea",
+  "item.cavesdelight.sweet_petal_tea": "Sweet Petal Tea"
 }

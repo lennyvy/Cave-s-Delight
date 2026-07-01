@@ -1,0 +1,53 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:DeepCoal"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:DeepCoal"
+      },
+      {
+        "value": "CUSTOM:DeepCoal"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DeepCoal"
+      },
+      {
+        "value": "CUSTOM:DeepCoal"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DeepCoalExtract"
+    },
+    "name": "deep_coal_extract_recipe",
+    "namespace": "mod"
+  }
+}

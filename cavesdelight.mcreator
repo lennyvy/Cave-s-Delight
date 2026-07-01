@@ -1498,7 +1498,7 @@
       "name": "SpiderDropModificationProcedure",
       "type": "procedure",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "spider_drop_modification_procedure",
       "metadata": {
         "dependencies": [
@@ -2064,20 +2064,6 @@
       "path": "~/items"
     },
     {
-      "name": "SpiderSilkWoolRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "spider_silk_wool_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/cavesdelight/recipe/spider_silk_wool_recipe.json",
-          "src/main/resources/data/cavesdelight/advancement/recipes/spider_silk_wool_recipe.json"
-        ]
-      },
-      "path": "~/recipes/craftingtable"
-    },
-    {
       "name": "SpiderPatty",
       "type": "item",
       "compiles": true,
@@ -2595,6 +2581,160 @@
         ]
       },
       "path": "~/items/effectfood"
+    },
+    {
+      "name": "DeepCoalExtract",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_coal_extract",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cavesdelight/models/item/deep_coal_extract.json",
+          "src/main/java/de/lennyvy/cavesdelight/item/DeepCoalExtractItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "DeepCoalTea",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "deep_coal_tea",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/item/DeepCoalTeaItem.java",
+          "src/main/resources/assets/cavesdelight/models/item/deep_coal_tea.json"
+        ]
+      },
+      "path": "~/items/effectfood"
+    },
+    {
+      "name": "GlowBerryTea",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "glow_berry_tea",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cavesdelight/models/item/glow_berry_tea.json",
+          "src/main/java/de/lennyvy/cavesdelight/item/GlowBerryTeaItem.java"
+        ]
+      },
+      "path": "~/items/effectfood"
+    },
+    {
+      "name": "SweetPetalTea",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sweet_petal_tea",
+      "metadata": {
+        "files": [
+          "src/main/java/de/lennyvy/cavesdelight/item/SweetPetalTeaItem.java",
+          "src/main/resources/assets/cavesdelight/models/item/sweet_petal_tea.json"
+        ]
+      },
+      "path": "~/items/effectfood"
+    },
+    {
+      "name": "SpiderWrapRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spider_wrap_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/advancement/recipes/spider_wrap_recipe.json",
+          "src/main/resources/data/cavesdelight/recipe/spider_wrap_recipe.json"
+        ]
+      },
+      "path": "~/recipes/cooking_pot"
+    },
+    {
+      "name": "DeepCoalWrapRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "deep_coal_wrap_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/advancement/recipes/deep_coal_wrap_recipe.json",
+          "src/main/resources/data/cavesdelight/recipe/deep_coal_wrap_recipe.json"
+        ]
+      },
+      "path": "~/recipes/cooking_pot"
+    },
+    {
+      "name": "DeepCoalTeaRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "deep_coal_tea_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/advancement/recipes/deep_coal_tea_recipe.json",
+          "src/main/resources/data/cavesdelight/recipe/deep_coal_tea_recipe.json"
+        ]
+      },
+      "path": "~/recipes/cooking_pot"
+    },
+    {
+      "name": "GlowBerryTeaRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "glow_berry_tea_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/glow_berry_tea_recipe.json",
+          "src/main/resources/data/cavesdelight/advancement/recipes/glow_berry_tea_recipe.json"
+        ]
+      },
+      "path": "~/recipes/cooking_pot"
+    },
+    {
+      "name": "SweetPetalTeaRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sweet_petal_tea_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/sweet_petal_tea_recipe.json",
+          "src/main/resources/data/cavesdelight/advancement/recipes/sweet_petal_tea_recipe.json"
+        ]
+      },
+      "path": "~/recipes/cooking_pot"
+    },
+    {
+      "name": "DeepCoalExtractRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_coal_extract_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/advancement/recipes/deep_coal_extract_recipe.json",
+          "src/main/resources/data/cavesdelight/recipe/deep_coal_extract_recipe.json"
+        ]
+      },
+      "path": "~/recipes/craftingtable"
+    },
+    {
+      "name": "SilkToStringRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silk_to_string_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavesdelight/recipe/silk_to_string_recipe.json",
+          "src/main/resources/data/cavesdelight/advancement/recipes/silk_to_string_recipe.json"
+        ]
+      },
+      "path": "~/recipes/craftingtable"
     }
   ],
   "variable_elements": [],
@@ -2644,7 +2784,7 @@
       "item.cavesdelight.deep_coal": "Deep Coal",
       "block.cavesdelight.deep_coal_ore": "Deep Coal Ore",
       "item.cavesdelight.deep_coal_crumbs": "Deep Coal Crumbs",
-      "jei.cavesdelight.deep_coal_info": "Deep Coal can be found in the deepest and darkest places. But be careful, there is something listening...",
+      "jei.cavesdelight.deep_coal_info": "Deep Coal ore can be found either in the darkest caves or you might find a small groove in the lush caves where cute little golems are wandering around. Btw i heard their favourite meal is a big slice of a shimmering mushroom",
       "jei.cavesdelight.shimmering_mushroom_info": "These Mushrooms only grow in the darkes caves out there. They belong to one of the few light sources down there",
       "item.cavesdelight.glow_lichen_with_deep_coal": "Glow Lichen With Deep Coal",
       "item.cavesdelight.shimmering_mushroom_slice": "Shimmering Mushroom Slice",
@@ -2717,7 +2857,11 @@
       "item.cavesdelight.deep_coal_golem_spawn_egg": "Deep Coal Golem Spawn Egg",
       "entity.cavesdelight.deep_coal_golem": "Deep Coal Golem",
       "item.cavesdelight.spider_wrap": "Spider Wrap",
-      "item.cavesdelight.deep_coal_wrap": "Spider Wrap"
+      "item.cavesdelight.deep_coal_wrap": "Deep Coal Wrap",
+      "item.cavesdelight.deep_coal_extract": "Deep Coal Extract",
+      "item.cavesdelight.deep_coal_tea": "Deep Coal Tea",
+      "item.cavesdelight.glow_berry_tea": "Glow Berry Tea",
+      "item.cavesdelight.sweet_petal_tea": "Sweet Petal Tea"
     },
     "de_de": {
       "block.cavesdelight.chess_flower": "Schachblume",
@@ -2739,11 +2883,11 @@
       "item.cavesdelight.deep_coal": "Tiefenkohle",
       "block.cavesdelight.deep_coal_ore": "Tiefenkohleerz",
       "item.cavesdelight.deep_coal_crumbs": "Tiefenkohlestücke",
-      "jei.cavesdelight.deep_coal_info": "Tiefenkohle ist an den tiefsten und dunkelsten Orten zu finden. Doch Vorsicht: Da ist etwas, das lauscht ... ",
+      "jei.cavesdelight.deep_coal_info": "Tiefenkohleerz findet man entweder in den dunkelsten Höhlen oder man sucht in einer kleinen Struktur in den üppigen Höhlen die niedliche kleine Golems die umherwandern. Übrigens habe ich gehört, dass ihre Lieblingsspeise ein großes Stück eines schimmernden Pilzes ist. ",
       "jei.cavesdelight.shimmering_mushroom_info": "Schimmerpilze wachsen nur in den dunkelsten Höhlen da draußen. Sie gehören zu den wenigen Lichtquellen dort unten.",
       "item.cavesdelight.glow_lichen_with_deep_coal": "Leuchtflechte mit Tiefenkohle",
-      "item.cavesdelight.shimmering_mushroom_slice": "Schimmerpilz Stücke",
-      "item.cavesdelight.small_shimmering_mushroom_slice": "Kleine Schimmerpilz Stücke",
+      "item.cavesdelight.shimmering_mushroom_slice": "Schimmerpilz Stück",
+      "item.cavesdelight.small_shimmering_mushroom_slice": "Kleines Schimmerpilz Stück",
       "block.cavesdelight.hyacinth_flower": "Hyazinthe",
       "item.cavesdelight.hyacinth_flower_petals": "Hyazinthenblütenblätter",
       "block.cavesdelight.raw_stuffed_axolotl": "Rohes gefülltes Axolotl",
@@ -2809,10 +2953,14 @@
       "item.cavesdelight.leek_soup": "Lauchsuppe",
       "jei.cavesdelight.leek_info": "Wilder Lauch kann in den \"Ebene\", \"Wald\" und \"Birken Wald\" Biomen gefunden werden...",
       "block.cavesdelight.wild_leek_plant": "Wilder Lauch",
-      "item.cavesdelight.deep_coal_golem_spawn_egg": "Deep Coal Golem Spawn Egg",
-      "entity.cavesdelight.deep_coal_golem": "Deep Coal Golem",
-      "item.cavesdelight.spider_wrap": "Spider Wrap",
-      "item.cavesdelight.deep_coal_wrap": "Spider Wrap"
+      "item.cavesdelight.deep_coal_golem_spawn_egg": "Tiefengolem-Spawn-Ei",
+      "entity.cavesdelight.deep_coal_golem": "Teifengolem",
+      "item.cavesdelight.spider_wrap": "Spinnenwrap",
+      "item.cavesdelight.deep_coal_wrap": "Tiefenkohlewrap",
+      "item.cavesdelight.deep_coal_extract": "Tiefenkohle Extrakt",
+      "item.cavesdelight.deep_coal_tea": "Tiefenkohletee",
+      "item.cavesdelight.glow_berry_tea": "Leuchtbeerentee",
+      "item.cavesdelight.sweet_petal_tea": "Süßer Blütentee"
     }
   },
   "metadata": {
@@ -2919,7 +3067,7 @@
   "workspaceSettings": {
     "modid": "cavesdelight",
     "modName": " Cave\u0027s Delight",
-    "version": "1.3.0b-snapshot-0.0.1",
+    "version": "1.3.0",
     "description": "FarmersDelight Addon for Cave Focused Content",
     "author": "lennyvy",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/caves-delights",

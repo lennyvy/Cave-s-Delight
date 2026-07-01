@@ -84,6 +84,10 @@ public class CavesdelightModItems {
 	public static final DeferredItem<Item> DEEP_COAL_GOLEM_SPAWN_EGG;
 	public static final DeferredItem<Item> SPIDER_WRAP;
 	public static final DeferredItem<Item> DEEP_COAL_WRAP;
+	public static final DeferredItem<Item> DEEP_COAL_EXTRACT;
+	public static final DeferredItem<Item> DEEP_COAL_TEA;
+	public static final DeferredItem<Item> GLOW_BERRY_TEA;
+	public static final DeferredItem<Item> SWEET_PETAL_TEA;
 	static {
 		CHESS_FLOWER = block(CavesdelightModBlocks.CHESS_FLOWER);
 		CHESS_FLOWER_SOUP = REGISTRY.register("chess_flower_soup", ChessFlowerSoupItem::new);
@@ -151,6 +155,10 @@ public class CavesdelightModItems {
 		DEEP_COAL_GOLEM_SPAWN_EGG = REGISTRY.register("deep_coal_golem_spawn_egg", () -> new DeferredSpawnEggItem(CavesdelightModEntities.DEEP_COAL_GOLEM, -1, -1, new Item.Properties()));
 		SPIDER_WRAP = REGISTRY.register("spider_wrap", SpiderWrapItem::new);
 		DEEP_COAL_WRAP = REGISTRY.register("deep_coal_wrap", DeepCoalWrapItem::new);
+		DEEP_COAL_EXTRACT = REGISTRY.register("deep_coal_extract", DeepCoalExtractItem::new);
+		DEEP_COAL_TEA = REGISTRY.register("deep_coal_tea", DeepCoalTeaItem::new);
+		GLOW_BERRY_TEA = REGISTRY.register("glow_berry_tea", GlowBerryTeaItem::new);
+		SWEET_PETAL_TEA = REGISTRY.register("sweet_petal_tea", SweetPetalTeaItem::new);
 	}
 	// Start of user code block custom items
 	public static final DeferredItem<Item> RAW_STUFFED_AXOLOTL = REGISTRY.register("raw_stuffed_axolotl", () -> new RawStuffedAxolotlItem(CavesdelightModBlocks.RAW_STUFFED_AXOLOTL.get(), new Item.Properties()));

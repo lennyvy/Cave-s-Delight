@@ -1,0 +1,24 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "id": "minecraft:glass_bottle"
+  },
+  "cookingtime": 150,
+  "experience": 2,
+  "ingredients": [
+    {
+      "item": "cavesdelight:deep_coal_extract"
+    },
+  	{
+      "item": "cavesdelight:deep_coal_extract"
+    },
+  	{
+      "item": "minecraft:sugar"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "id": "cavesdelight:deep_coal_tea",
+    "count": 1
+  }
+}

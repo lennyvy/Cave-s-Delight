@@ -1,0 +1,30 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "id": "minecraft:bowl"
+  },
+  "cookingtime": 150,
+  "experience": 2,
+  "ingredients": [
+	{
+      "item": "minecraft:bread"
+    },
+  	{
+      "item": "cavesdelight:spider_chops"
+    },
+    {
+      "item": "farmersdelight:tomato"
+    },
+    {
+      "item": "cavesdelight:chopped_leek"
+    },
+    {
+      "tag": "c:crops/cabbage"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "id": "cavesdelight:spider_wrap",
+    "count": 1
+  }
+}

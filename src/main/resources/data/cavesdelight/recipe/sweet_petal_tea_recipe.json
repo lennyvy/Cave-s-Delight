@@ -1,0 +1,24 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "id": "minecraft:glass_bottle"
+  },
+  "cookingtime": 150,
+  "experience": 2,
+  "ingredients": [
+    {
+      "item": "cavesdelight:hyacinth_flower_petals"
+    },
+  	{
+      "item": "cavesdelight:chess_flower_petals"
+    },
+  	{
+      "item": "minecraft:sugar"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "id": "cavesdelight:sweet_petal_tea",
+    "count": 1
+  }
+}

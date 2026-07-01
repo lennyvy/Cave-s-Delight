@@ -46,6 +46,7 @@ public class CavesdelightModTabs {
 				tabData.accept(CavesdelightModBlocks.DEEP_COAL_ORE.get().asItem());
 				tabData.accept(CavesdelightModItems.DEEP_COAL.get());
 				tabData.accept(CavesdelightModItems.DEEP_COAL_CRUMBS.get());
+				tabData.accept(CavesdelightModItems.DEEP_COAL_EXTRACT.get());
 				tabData.accept(CavesdelightModItems.DEEP_COAL_CEREALS.get());
 				tabData.accept(CavesdelightModItems.GLOW_LICHEN_WITH_DEEP_COAL.get());
 				tabData.accept(CavesdelightModItems.SHIMMERING_GLOW_LICHEN.get());
@@ -79,6 +80,9 @@ public class CavesdelightModTabs {
 				tabData.accept(CavesdelightModItems.SLIME_JELLO_BROWN.get());
 				tabData.accept(CavesdelightModItems.SLIME_JELLO_WHITE.get());
 				tabData.accept(CavesdelightModItems.SLIME_JELLO_BLACK.get());
+				tabData.accept(CavesdelightModItems.DEEP_COAL_TEA.get());
+				tabData.accept(CavesdelightModItems.GLOW_BERRY_TEA.get());
+				tabData.accept(CavesdelightModItems.SWEET_PETAL_TEA.get());
 				tabData.accept(CavesdelightModItems.SPIDER_STEW.get());
 				tabData.accept(CavesdelightModItems.GLOW_BERRY_SAUCE.get());
 				tabData.accept(CavesdelightModItems.LEEK_SOUP.get());
